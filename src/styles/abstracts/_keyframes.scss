@@ -1,0 +1,66 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slidediagright {
+  from {
+    transform: translate3d(42px, -62px, -135px);
+  }
+  to {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+@keyframes slideinright {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideinleft {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes textappear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes textappearwhite {
+  from {
+    color: rgba($color: white, $alpha: 0);
+  }
+  to {
+    color: rgba($color: white, $alpha: 1);
+  }
+}
+
+@keyframes extend {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}

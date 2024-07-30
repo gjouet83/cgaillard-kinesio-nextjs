@@ -1,0 +1,16 @@
+.header {
+  background-color: $HeaderBackgroundColor;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    &__name {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+}

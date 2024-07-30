@@ -1,0 +1,45 @@
+/*------------------ burger Menu ---------------*/
+.burgerMenuButton {
+  background-color: transparent;
+  border: none;
+  width: 48px;
+  height: 48px;
+  z-index: 999;
+  @include tb-desk {
+    display: none;
+  }
+  &__burgerMenu {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
+    height: 39px;
+    @include tb-desk {
+      display: none;
+    }
+    &__line {
+      width: 100%;
+      height: 5px;
+      background-color: white;
+      border-radius: 25px;
+      transition: all 300ms;
+    }
+  }
+}
+
+/*---------- turn burgermenu to cross -----------*/
+.rotate-right {
+  transform: rotate(45deg) scaleX(1.2);
+  transform-origin: left;
+  z-index: 1;
+}
+.rotate-left {
+  transform: rotate(-45deg) scaleX(1.2);
+  transform-origin: left;
+  z-index: 1;
+}
+.vanish {
+  transform: scale(0);
+}
