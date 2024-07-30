@@ -28,7 +28,6 @@
     }
   }
 }
-
 /*---------- turn burgermenu to cross -----------*/
 .rotate-right {
   transform: rotate(45deg) scaleX(1.2);
@@ -42,4 +41,43 @@
 }
 .vanish {
   transform: scale(0);
+}
+
+.linkButton {
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 80vw;
+  height: 3rem;
+  grid-column: 1;
+  grid-row: 3;
+  border-radius: 25px;
+  background-color: $linkButton;
+  box-shadow: $boxShadow;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  transform-origin: left;
+  animation: ease-in-out 1s backwards extend;
+  animation-delay: 1s;
+  z-index: 997;
+  @include tb-desk {
+    width: 40vw;
+    &:hover {
+      transform-origin: center;
+      transform: scale(1.1);
+      transition: transform 200ms, box-shadow 200ms;
+      box-shadow: $boxShadowHover;
+    }
+  }
+  & > a {
+    display: block;
+    text-decoration: none;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+  }
 }

@@ -1,4 +1,4 @@
-function BurgerMenuButton({ open, setOpen }) {
+export function BurgerMenuButton({ open, setOpen }) {
   return (
     <>
       <button
@@ -28,4 +28,12 @@ function BurgerMenuButton({ open, setOpen }) {
   );
 }
 
-export default BurgerMenuButton;
+export function LinkPageButton() {
+  return (
+    <div class="home__hero__contact linkButton">
+      <a class="home__hero__contact__link" href="./tarifs-contact.html">
+        Prendre Contact
+      </a>
+    </div>
+  );
+}

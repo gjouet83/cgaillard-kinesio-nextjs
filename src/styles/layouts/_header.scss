@@ -1,8 +1,9 @@
 .header {
   background-color: $HeaderBackgroundColor;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px;
   &__title {
     display: flex;
     flex-direction: column;

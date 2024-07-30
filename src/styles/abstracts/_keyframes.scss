@@ -38,15 +38,6 @@
   }
 }
 
-@keyframes textappear {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @keyframes textappearwhite {
   from {
     color: rgba($color: white, $alpha: 0);

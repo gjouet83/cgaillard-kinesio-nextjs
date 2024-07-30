@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
+import { LinkPageButton } from './components/Buttons';
 
 export default function Home() {
   return (
@@ -9,8 +10,8 @@ export default function Home() {
           <Image
             className="home__hero__figure__image"
             src="/hero.jpg"
-            width="500"
-            height="500"
+            fill
+            sizes="(max-width: 321px) 320px, (max-width: 481px) 480px, (max-width: 641px) 640px, 800px"
             alt="cerisiers en fleurs"
           />
         </figure>
@@ -21,6 +22,7 @@ export default function Home() {
           Permettez à votre corps de se libérer afin d’amorcer les bases d’un
           nouvel horizon et de reconquérir votre force intérieure.
         </h3>
+        <LinkPageButton />
       </section>
     </main>
   );
