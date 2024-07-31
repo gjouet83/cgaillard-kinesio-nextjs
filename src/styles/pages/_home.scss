@@ -3,21 +3,23 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1.25fr 0.75fr;
     position: relative;
     @include tb-desk {
+      grid-template-columns: 1.25fr 0.75fr;
       grid-column: 1/3;
     }
     background-color: $BodyBackgroundColor;
-    &__figure {
+    &__container {
       width: 100vw;
-      height: 50vh;
+      height: 70vh;
       margin: 0;
       grid-row: 1/4;
       grid-column: 1;
       overflow: hidden;
+      @include tb-desk {
+        height: 80vh !important;
+      }
       &__image {
         object-fit: cover;
         opacity: 0.8;
@@ -43,7 +45,6 @@
       top: 10%;
       font-style: italic;
       font-size: 30px;
-      height: fit-content;
       align-self: center;
       text-align: center;
       padding-left: 10px;
@@ -54,8 +55,9 @@
       @include tb-desk {
         position: relative;
         border-radius: 10px;
-        font-size: 40px;
+        font-size: 45px;
         line-height: 3rem;
+        padding-left: 50px;
       }
     }
     &__herosubtitle {
@@ -68,13 +70,67 @@
       animation: ease-in-out 1.5s forwards appear;
       animation-delay: 0.5s;
       text-align: center;
-      height: fit-content;
       padding-left: 10px;
       padding-right: 10px;
       color: $HeaderBackgroundColor;
       @extend %textShadow;
       @include tb-desk {
-        font-size: 20px;
+        font-size: 30px;
+        padding-left: 50px;
+      }
+    }
+  }
+  &__why {
+    display: grid;
+    justify-content: center;
+
+    &__container {
+      grid-row: 1/3;
+      grid-column: 1;
+      &__image {
+        object-fit: cover;
+        opacity: 1;
+        width: 100vw;
+        height: 120%;
+      }
+    }
+    &__title {
+      position: relative;
+      grid-row: 1;
+      grid-column: 1;
+      font-style: italic;
+      font-size: 25px;
+      align-self: center;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      color: $HeaderBackgroundColor;
+    }
+    &__list {
+      position: relative;
+      grid-row: 2;
+      grid-column: 1;
+      padding-right: 10px;
+      &__element {
+        line-height: 1.2rem;
+        margin-bottom: 10vw;
+      }
+    }
+  }
+  &__accompaniment {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    &__container {
+      grid-row: 1;
+      grid-column: 1;
+      &__image {
+        object-fit: cover;
+        opacity: 1;
+        width: 100vw;
+        height: 120%;
       }
     }
   }
