@@ -22,8 +22,8 @@ export default function Home() {
           Permettez à votre corps de se libérer afin d’amorcer les bases d’un
           nouvel horizon et de reconquérir votre force intérieure.
         </h3>
-        <LinkPageButton />
       </section>
+      <LinkPageButton />
       <section className="home__why">
         <div className="home__why__container">
           <Image

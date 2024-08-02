@@ -9,20 +9,20 @@
       grid-template-columns: 1.25fr 0.75fr;
       grid-column: 1/3;
     }
-    background-color: $BodyBackgroundColor;
     &__container {
       width: 100vw;
       height: 70vh;
       margin: 0;
       grid-row: 1/4;
       grid-column: 1;
-      overflow: hidden;
+
       @include tb-desk {
         height: 80vh !important;
       }
       &__image {
         object-fit: cover;
         opacity: 0.8;
+        z-index: -1;
         @include tablet {
           width: 100vw;
         }
@@ -78,6 +78,11 @@
         font-size: 30px;
         padding-left: 50px;
       }
+    }
+    &__contact {
+      margin-top: -68px;
+      position: sticky;
+      top: 0;
     }
   }
   &__why {
