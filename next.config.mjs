@@ -12,6 +12,11 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  trailingSlash: true, // Ajoute un / à la fin des URLs
+  images: {
+    loader: 'custom',
+    path: '/',
+  },
 };
 
 export default nextConfig;

@@ -10,7 +10,7 @@ export default function Navbar({ open, setOpen }) {
           </Link>
         </li>
         <li className={`navbar__list__element ${open && 'textOpacity'}`}>
-          <Link href="/myApproach">Mon Approche</Link>
+          <Link href="/mon-approche">Mon Approche</Link>
         </li>
         <li className={`navbar__list__element ${open && 'textOpacity'}`}>
           <Link href="/aboutMe">À propos de moi</Link>

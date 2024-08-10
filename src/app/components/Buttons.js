@@ -33,7 +33,7 @@ export function LinkPageButton() {
   return (
     <div className="home__hero__contact linkButton">
       <a className="home__hero__contact__link" href="./tarifs-contact.html">
-        Prendre Contact
+        Prendre rendez-vous
       </a>
     </div>
   );
