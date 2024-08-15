@@ -1,7 +1,7 @@
 import '../styles/main.scss';
-import Header from './layout/Header';
+import Header from './IndexLayout/Header';
 
-export default function RootLayout({ children }) {
+const RootLayout = ({ children }) => {
   return (
     <html lang="fr">
       <body>
@@ -11,4 +11,6 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

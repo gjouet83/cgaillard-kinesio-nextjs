@@ -1,35 +1,35 @@
 'use client';
-export function BurgerMenuButton({ open, setOpen }) {
+import Script from 'next/script';
+
+export const BurgerMenuButton = () => {
   return (
     <>
       <button
         className="burgerMenuButton"
         aria-label="menu"
-        onClick={() => setOpen(!open)}
+        onClick={() => handleClickOpen()}
       >
         <div className="burgerMenuButton__burgerMenu">
           <div
-            className={`burgerMenuButton__burgerMenu__line one ${
-              open && 'rotate-right'
-            }`}
+            className="burgerMenuButton__burgerMenu__line one"
+            id="one"
           ></div>
           <div
-            className={`burgerMenuButton__burgerMenu__line two ${
-              open && 'vanish'
-            }`}
+            className="burgerMenuButton__burgerMenu__line two "
+            id="two"
           ></div>
           <div
-            className={`burgerMenuButton__burgerMenu__line three ${
-              open && 'rotate-left'
-            }`}
+            className="burgerMenuButton__burgerMenu__line three"
+            id="three"
           ></div>
         </div>
       </button>
+      <Script src="./js/handleClickOpen.js" strategy="lazyOnload" />
     </>
   );
-}
+};
 
-export function LinkPageButton() {
+export const LinkPageButton = () => {
   return (
     <div className="home__hero__contact linkButton">
       <a className="home__hero__contact__link" href="./tarifs-contact.html">
@@ -37,4 +37,4 @@ export function LinkPageButton() {
       </a>
     </div>
   );
-}
+};
