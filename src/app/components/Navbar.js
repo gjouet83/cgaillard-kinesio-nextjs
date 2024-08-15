@@ -1,24 +1,30 @@
 import Link from 'next/link';
 
-const Navbar = () => {
+export default function Navbar({ open, setOpen }) {
   return (
-    <nav className={`navbar `} id="nav">
-      <ul className={`navbar__list `}>
-        <li className={`navbar__list__element `}>
-          <Link href="/">Accueil</Link>
+    <nav className={`navbar ${open && 'open'}`}>
+      <ul className={`navbar__list ${open && 'textOpacity'}`}>
+        <li className={`navbar__list__element ${open && 'textOpacity'}`}>
+          <Link href="/" onClick={() => setOpen(false)}>
+            Accueil
+          </Link>
         </li>
-        <li className={`navbar__list__element `}>
-          <Link href="/mon-approche">Mon Approche</Link>
+        <li className={`navbar__list__element ${open && 'textOpacity'}`}>
+          <Link href="/mon-approche" onClick={() => setOpen(false)}>
+            Mon Approche
+          </Link>
         </li>
-        <li className={`navbar__list__element `}>
-          <Link href="/aboutMe">À propos de moi</Link>
+        <li className={`navbar__list__element ${open && 'textOpacity'}`}>
+          <Link href="/aboutMe" onClick={() => setOpen(false)}>
+            À propos de moi
+          </Link>
         </li>
-        <li className={`navbar__list__element `}>
-          <Link href="/pricing-contact">Tarifs &amp; Contact</Link>
+        <li className={`navbar__list__element ${open && 'textOpacity'}`}>
+          <Link href="/pricing-contact" onClick={() => setOpen(false)}>
+            Tarifs &amp; Contact
+          </Link>
         </li>
       </ul>
     </nav>
   );
-};
-
-export default Navbar;
+}
