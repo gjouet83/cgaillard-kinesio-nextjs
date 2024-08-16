@@ -1,9 +1,12 @@
 'use client';
-import Menu from '../components/Menu';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
+import Navbar from './Navbar';
+import { BurgerMenuButton } from '../ui/Buttons';
 
 const Header = () => {
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
   return (
     <header className="header">
       {pathname === '/' ? (
@@ -18,7 +21,8 @@ const Header = () => {
         </div>
       )}
 
-      <Menu />
+      <Navbar open={open} setOpen={setOpen} />
+      <BurgerMenuButton open={open} setOpen={setOpen} />
     </header>
   );
 };

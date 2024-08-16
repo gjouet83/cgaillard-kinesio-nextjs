@@ -1,0 +1,52 @@
+.footer {
+  background-color: $FooterBackgroundColor;
+  &__firstcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    &__contact {
+      border-bottom: 1px solid white;
+      @include tb-desk {
+        border-right: 1px solid white;
+        border-bottom: inherit;
+        max-width: 329px;
+        padding-right: 6%;
+      }
+      &__onlineRdv {
+        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1rem;
+      }
+      &__address {
+        display: grid;
+        gap: 0 18px;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        &__link {
+          display: flex;
+          margin: 5px;
+          &__phoneIco,
+          &__mailIco,
+          &__locationIco {
+            align-self: center;
+            width: 16px;
+            margin-right: 5px;
+          }
+        }
+
+        &__header {
+          grid-row: 1;
+          font-style: normal;
+          font-size: 1.2rem;
+          text-decoration: underline;
+          @include tb-desk {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

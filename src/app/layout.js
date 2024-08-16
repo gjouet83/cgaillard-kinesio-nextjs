@@ -1,5 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import '../styles/main.scss';
-import Header from './IndexLayout/Header';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 const RootLayout = ({ children }) => {
   return (
@@ -7,7 +9,7 @@ const RootLayout = ({ children }) => {
       <body>
         <Header />
         {children}
-        <footer className="footer"></footer>
+        <Footer />
       </body>
     </html>
   );
