@@ -1,16 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
+import seatOnTheBeach from '../../../../public/images/seatOnBeach.jpg';
 const Profits = () => {
   return (
     <section className="home__profits">
       <div className="home__profits__container">
-        <Image
+        <ExportedImage
           className="home__profits__container__image"
-          src="/seatOnBeach.jpg"
+          src={seatOnTheBeach}
           alt="plage"
-          width={330}
-          height={496}
-          priority
         />
       </div>
       <h2 className="home__profits__title">

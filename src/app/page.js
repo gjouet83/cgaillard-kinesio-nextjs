@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image';
 import { LinkPageButton } from './components/ui/Buttons';
 import GoogleReviews from './index/sections/GoogleReviews';
 import Hero from './index/sections/Hero';

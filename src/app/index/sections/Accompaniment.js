@@ -1,17 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
+import fingerTouch from '../../../../public/images/fingerTouch.jpg';
 
 const Accompaniment = () => {
   return (
     <section className="home__accompaniment">
       <div className="home__accompaniment__container">
-        <Image
+        <ExportedImage
           className="home__accompaniment__container__image"
-          src="/fingerTouch.jpg"
-          width={330}
-          height={496}
-          sizes="(max-width: 321px) 320px, (max-width: 481px) 480px, (max-width: 641px) 640px, 800px"
+          src={fingerTouch}
           alt="plage en contre-jour avec une silhouette au loin"
+          priority
         />
       </div>
       <h2 className="home__accompaniment__title">

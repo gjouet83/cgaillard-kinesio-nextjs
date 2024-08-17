@@ -1,15 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
+import beach from '../../../../public/images/beach.jpg';
 const Why = () => {
   return (
     <section className="home__why">
       <div className="home__why__container">
-        <Image
+        <ExportedImage
           className="home__why__container__image"
-          src="/beach.jpg"
-          width={330}
-          height={496}
-          sizes="(max-width: 321px) 320px, (max-width: 481px) 480px, (max-width: 641px) 640px, 800px"
+          src={beach}
           alt="plage en contre-jour avec une silhouette au loin"
         />
       </div>

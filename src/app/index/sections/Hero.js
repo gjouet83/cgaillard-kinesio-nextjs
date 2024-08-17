@@ -1,17 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
+import hero from '../../../../public/images/hero.jpg';
 
 const HeroSection = () => {
   return (
     <section className="home__hero">
       <div className="home__hero__container">
-        <Image
+        <ExportedImage
           className="home__hero__container__image"
-          src="/hero.jpg"
-          fill
-          sizes="(max-width: 321px) 320px, (max-width: 481px) 480px, (max-width: 641px) 640px, 800px"
+          src={hero}
           alt="cerisiers en fleurs"
-          priority
+          fill
         />
       </div>
       <h2 className="home__hero__herotitle">
