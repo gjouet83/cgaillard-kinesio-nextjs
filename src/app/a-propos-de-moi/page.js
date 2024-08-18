@@ -3,6 +3,12 @@ import ExportedImage from 'next-image-export-optimizer';
 import aboutMe from '../../../public/images/aboutMe.jpg';
 import { LinkPageButton } from '../components/ui/Buttons';
 
+export const metadata = {
+  title: 'A propos de moi - Caroline Gaillard - Kinésiologue à Lyon',
+  description:
+    'Découvrez le parcours de Caroline Gaillard, kinésiologue certifiée à Lyon. Caroline vous accompagne avec bienveillance dans votre chemin vers le mieux-être grâce à la kinésiologie.',
+};
+
 const AboutMe = () => {
   return (
     <main className="aboutMe">
