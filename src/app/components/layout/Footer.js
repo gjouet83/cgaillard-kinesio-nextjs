@@ -9,13 +9,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ExportedImage from 'next-image-export-optimizer';
 import fkpLogo from '../../../../public/images/FKP_Logotype.webp';
 import teteOr from '../../../../public/images/tete-or.svg';
+import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__firstcontainer">
         <div className="footer__firstcontainer__contact">
           <address className="footer__firstcontainer__contact__address">
-            <a
+            <Link
               href="tel:+33762750700"
               className="footer__firstcontainer__contact__address__link"
             >
@@ -25,8 +26,8 @@ const Footer = () => {
                 aria-label="Icone qui représente un téléphone"
               />
               0762750700
-            </a>
-            <a
+            </Link>
+            <Link
               href="mailto:carolinegaillard.kinesiologue@gmail.com"
               className="footer__firstcontainer__contact__address__link"
             >
@@ -36,8 +37,8 @@ const Footer = () => {
                 aria-label="Icone qui représente une enveloppe"
               />
               carolinegaillard.kinesiologue@gmail.com
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://maps.app.goo.gl/Jrcamz2KokEtqyyu6"
               target="_blank"
               rel="noreferrer"
@@ -49,7 +50,7 @@ const Footer = () => {
                 aria-label="Icone qui sélectionne une carte"
               />
               13 Cr d'Herbouville, 69004 Lyon
-            </a>
+            </Link>
           </address>
         </div>
         <div className="footer__firstcontainer__socialNetwork">
@@ -57,7 +58,7 @@ const Footer = () => {
             Retrouvez-moi également sur
           </span>
           <div className="footer__firstcontainer__socialNetwork__content">
-            <a
+            <Link
               target="_blank"
               href="https://www.facebook.com/caroline.gaillard.kinesiologue/"
               rel="noreferrer"
@@ -70,8 +71,8 @@ const Footer = () => {
                 aria-label="Icone facebook"
                 width={50}
               />
-            </a>
-            <a
+            </Link>
+            <Link
               target="_blank"
               href="https://www.linkedin.com/in/caroline-gaillard-a1a782287/"
               rel="noreferrer"
@@ -84,10 +85,10 @@ const Footer = () => {
                 aria-label="Icone Linkedin"
                 width={50}
               />
-            </a>
+            </Link>
           </div>
           <div className="footer__firstcontainer__partner">
-            <a
+            <Link
               href="https://www.federationkinesiologiqueprofessionnelle.fr/"
               target="_blank"
               rel="noreferrer"
@@ -106,8 +107,8 @@ const Footer = () => {
                   Membre de la Fédération de Kinésiologie Professionnelle
                 </figcaption>
               </figure>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://espace-re-source.fr/tete-dor/"
               target="_blank"
               rel="noreferrer"
@@ -126,7 +127,7 @@ const Footer = () => {
                   UN ESPACE DE CO-WORKING ZEN À LYON
                 </figcaption>
               </figure>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

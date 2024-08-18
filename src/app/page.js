@@ -15,7 +15,11 @@ const Home = () => {
   return (
     <main className="home">
       <Hero />
-      <LinkPageButton />
+      <LinkPageButton
+        className={'home__hero__contact'}
+        href={'/pricing-contact'}
+        text={'Prendre rendez-vous'}
+      />
       <Why />
       <Accompaniment />
       <Profits />

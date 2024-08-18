@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 export function BurgerMenuButton({ open, setOpen }) {
   return (
     <>
@@ -29,12 +30,12 @@ export function BurgerMenuButton({ open, setOpen }) {
   );
 }
 
-export function LinkPageButton() {
+export function LinkPageButton({ className, href, text }) {
   return (
-    <div className="home__hero__contact linkButton">
-      <a className="home__hero__contact__link" href="./tarifs-contact.html">
-        Prendre rendez-vous
-      </a>
+    <div className={`${className} linkButton`}>
+      <Link className={`${className}__link`} href={href}>
+        {text}
+      </Link>
     </div>
   );
 }

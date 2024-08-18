@@ -2,4 +2,8 @@ html {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  h1,
+  h2 {
+    color: $titlesColor;
+  }
 }

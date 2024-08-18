@@ -1,4 +1,5 @@
 html {
+  h1,
   h2,
   h3 {
     margin: 0;
@@ -8,8 +9,13 @@ html {
     line-height: 3rem;
     color: white;
   }
+  p {
+    margin: 0;
+    padding: 10px;
+  }
   body {
     margin: 0;
+    background-color: rgba(247, 238, 219, 1);
   }
   figure {
     margin: 0;
