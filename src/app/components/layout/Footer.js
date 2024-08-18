@@ -108,16 +108,16 @@ const Footer = () => {
               </figure>
             </a>
             <a
-              href="https://www.federationkinesiologiqueprofessionnelle.fr/"
+              href="https://espace-re-source.fr/tete-dor/"
               target="_blank"
               rel="noreferrer"
               className="footer__firstcontainer__partner__figure__link"
-              aria-label="fédération de kinésiologie professionnelle"
+              aria-label="Espace Re-Source"
             >
               <figure className="footer__firstcontainer__partner__figure">
                 <ExportedImage
                   src={teteOr}
-                  alt="logo de la fédération de kinésiologie professionnelle"
+                  alt="logo de espace Re-Source"
                   className="footer__firstcontainer__partner__figure__img"
                   width={100}
                 />
