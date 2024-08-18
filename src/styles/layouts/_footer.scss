@@ -6,18 +6,11 @@
     justify-content: space-around;
     padding: 10px;
     &__contact {
-      border-bottom: 1px solid white;
       @include tb-desk {
         border-right: 1px solid white;
         border-bottom: inherit;
         max-width: 329px;
         padding-right: 6%;
-      }
-      &__onlineRdv {
-        width: fit-content;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 1rem;
       }
       &__address {
         display: grid;
@@ -36,15 +29,79 @@
             margin-right: 5px;
           }
         }
-
-        &__header {
-          grid-row: 1;
-          font-style: normal;
-          font-size: 1.2rem;
-          text-decoration: underline;
-          @include tb-desk {
-            font-size: 1.5rem;
+      }
+    }
+    &__partner {
+      position: relative;
+      display: grid;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 0;
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      @include tb-desk {
+        border-bottom: inherit;
+        max-width: 350px;
+        padding-left: 20px;
+      }
+      &__figure {
+        width: fit-content;
+        height: fit-content;
+        margin: 10px 0 0 0;
+        display: flex;
+        &__link {
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+      }
+      &__figcaption {
+        margin-right: 20px;
+        color: white;
+      }
+    }
+    &__socialNetwork {
+      border-top: 1px solid white;
+      @include tb-desk {
+        border-left: 1px solid white;
+        border-bottom: none;
+        padding-left: 5%;
+      }
+      &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 18px;
+        margin-top: 20px;
+        @include tb-desk {
+          max-width: 157px;
+          padding-left: 20%;
+          margin-right: 0;
+          margin-top: 70px;
+          &__facebook,
+          &__linkedin,
+          &__instagram,
+          &__twitter {
+            &:hover {
+              transition: transform 200ms ease-in-out;
+              transform: scale(1.2);
+            }
           }
+        }
+      }
+      &__header {
+        padding-left: 10px;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        @include tb-desk {
+          font-size: 1.5rem;
         }
       }
     }

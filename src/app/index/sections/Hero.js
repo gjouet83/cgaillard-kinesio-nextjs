@@ -11,6 +11,7 @@ const HeroSection = () => {
           src={hero}
           alt="cerisiers en fleurs"
           fill
+          priority
         />
       </div>
       <h2 className="home__hero__herotitle">
