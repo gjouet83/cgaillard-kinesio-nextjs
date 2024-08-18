@@ -8,6 +8,7 @@ import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ExportedImage from 'next-image-export-optimizer';
 import fkpLogo from '../../../../public/images/FKP_Logotype.webp';
+import teteOr from '../../../../public/images/tete-or.svg';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -86,25 +87,46 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer__firstcontainer__partner">
-            <figure className="footer__firstcontainer__partner__figure">
-              <a
-                href="https://www.federationkinesiologiqueprofessionnelle.fr/"
-                target="_blank"
-                rel="noreferrer"
-                className="footer__firstcontainer__partner__figure__link"
-                aria-label="fédération de kinésiologie professionnelle"
-              >
+            <a
+              href="https://www.federationkinesiologiqueprofessionnelle.fr/"
+              target="_blank"
+              rel="noreferrer"
+              className="footer__firstcontainer__partner__figure__link"
+              aria-label="fédération de kinésiologie professionnelle"
+            >
+              <figure className="footer__firstcontainer__partner__figure">
                 <ExportedImage
                   src={fkpLogo}
                   alt="logo de la fédération de kinésiologie professionnelle"
                   className="footer__firstcontainer__partner__figure__img"
                   width={200}
                 />
-              </a>
-              <figcaption className="footer__firstcontainer__partner__figcaption">
-                Membre de la Fédération de Kinésiologie Professionnelle
-              </figcaption>
-            </figure>
+
+                <figcaption className="footer__firstcontainer__partner__figcaption">
+                  Membre de la Fédération de Kinésiologie Professionnelle
+                </figcaption>
+              </figure>
+            </a>
+            <a
+              href="https://www.federationkinesiologiqueprofessionnelle.fr/"
+              target="_blank"
+              rel="noreferrer"
+              className="footer__firstcontainer__partner__figure__link"
+              aria-label="fédération de kinésiologie professionnelle"
+            >
+              <figure className="footer__firstcontainer__partner__figure">
+                <ExportedImage
+                  src={teteOr}
+                  alt="logo de la fédération de kinésiologie professionnelle"
+                  className="footer__firstcontainer__partner__figure__img"
+                  width={100}
+                />
+
+                <figcaption className="footer__firstcontainer__partner__figcaption">
+                  UN ESPACE DE CO-WORKING ZEN À LYON
+                </figcaption>
+              </figure>
+            </a>
           </div>
         </div>
       </div>

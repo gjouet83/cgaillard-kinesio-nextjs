@@ -10,7 +10,6 @@ const HeroSection = () => {
           className="home__hero__container__image"
           src={hero}
           alt="cerisiers en fleurs"
-          fill
           priority
         />
       </div>

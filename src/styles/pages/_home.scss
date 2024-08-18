@@ -21,6 +21,9 @@
         height: 80vh !important;
       }
       &__image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
         opacity: 0.8;
         z-index: -1;
