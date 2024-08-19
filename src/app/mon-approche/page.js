@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { LinkPageButton } from '../components/ui/Buttons';
 const MonApproche = () => {
   return (
     <main className="approach">
@@ -22,6 +23,11 @@ const MonApproche = () => {
         vous, favorise la progression, stimule l'action, et vous permet
         d'atteindre vos objectifs à votre rythme.
       </p>
+      <LinkPageButton
+        className={'approach'}
+        href={'/tarif-et-contact'}
+        text={'Prendre rendez-vous'}
+      />
     </main>
   );
 };

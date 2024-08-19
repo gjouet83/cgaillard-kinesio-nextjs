@@ -1,0 +1,66 @@
+.pricing-contact {
+  &__contact {
+    display: grid;
+    &__title {
+      margin: 20px;
+    }
+    &__address {
+      display: grid;
+      gap: 0 18px;
+      align-items: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      &__link {
+        color: black;
+        display: flex;
+        margin: 5px;
+        &__phoneIco,
+        &__mailIco,
+        &__locationIco {
+          align-self: center;
+          width: 16px;
+          margin-right: 5px;
+        }
+      }
+    }
+
+    &__map {
+      width: 100vw;
+      align-self: center;
+      justify-self: center;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      border: none;
+      @include tb-desk {
+        width: 80vw;
+      }
+    }
+  }
+  &__pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    @include tb-desk {
+      display: flex;
+      justify-content: center;
+    }
+    &__title {
+      @include tb-desk {
+        grid-column: 1/3;
+        grid-row: 1;
+      }
+    }
+    & > img {
+      display: none;
+      @include tb-desk {
+        display: block;
+      }
+    }
+  }
+}
+
+.indexLink {
+  width: 300px;
+}

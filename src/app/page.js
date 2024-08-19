@@ -17,13 +17,18 @@ const Home = () => {
       <Hero />
       <LinkPageButton
         className={'home__hero__contact'}
-        href={'/pricing-contact'}
+        href={'/tarif-et-contact'}
         text={'Prendre rendez-vous'}
       />
       <Why />
       <Accompaniment />
       <Profits />
       <GoogleReviews />
+      <LinkPageButton
+        className={'home'}
+        href={'/a-propos-de-moi'}
+        text={'A propos de moi'}
+      />
     </main>
   );
 };

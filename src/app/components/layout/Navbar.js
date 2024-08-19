@@ -20,7 +20,7 @@ export default function Navbar({ open, setOpen }) {
           </Link>
         </li>
         <li className={`navbar__list__element ${open && 'textOpacity'}`}>
-          <Link href="/pricing-contact" onClick={() => setOpen(false)}>
+          <Link href="/tarif-et-contact" onClick={() => setOpen(false)}>
             Tarifs &amp; Contact
           </Link>
         </li>
