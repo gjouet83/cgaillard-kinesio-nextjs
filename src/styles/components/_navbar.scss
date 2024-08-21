@@ -10,17 +10,39 @@
   transition-delay: 100ms;
   transform-origin: right;
   z-index: 998;
+  @include tb-desk {
+    position: relative;
+    height: fit-content;
+    max-width: 60vw;
+    transform: scaleX(1);
+    top: 0;
+    z-index: 1;
+    margin-right: 10px;
+  }
   &__list {
     list-style: none;
     font-size: 1.5rem;
     color: white;
     padding: 20%;
+    @include tb-desk {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      justify-content: space-evenly;
+    }
 
     &__element {
       margin-top: 20px;
       margin-bottom: 20px;
       opacity: 0;
       transition: all 300ms ease-in-out;
+      @include tb-desk {
+        opacity: 1;
+        &:hover a {
+          transition: all 200ms ease-in-out;
+          border-bottom: 2px solid white;
+        }
+      }
     }
   }
 }
