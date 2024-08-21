@@ -5,9 +5,16 @@ import {
   faEnvelope,
   faPhone,
   faLocationDot,
+  faClock,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CalendlyEmbed from '../utils/CalendlyEmbed';
+
+export const metadata = {
+  title: 'A propos de moi - Caroline Gaillard - Kinésiologue à Lyon',
+  description:
+    'Caroline Gaillard vous accueille dans son cabinet de kinésiologie à Lyon Croix Rousse',
+};
 
 const pricingContact = () => {
   return (
@@ -18,7 +25,7 @@ const pricingContact = () => {
           Envie de commencer ?
         </h2>
         <LinkPageButton
-          className={'pricing-contact__contact'}
+          className={'pricing-contact__contact__link'}
           href={'#schedule'}
           text={'Prendre rendez-vous'}
         />
@@ -59,6 +66,23 @@ const pricingContact = () => {
             13 Cr d'Herbouville, 69004 Lyon
           </Link>
         </address>
+        <h3 className="pricing-contact__contact__schedule">
+          <FontAwesomeIcon
+            icon={faClock}
+            className="pricing-contact__contact__scheduleIco"
+            aria-label="Icone qui représente une horloge"
+          />
+          Horaires
+        </h3>
+        <ul>
+          <li>lundi : 8h - 20h</li>
+          <li>mardi : 8h - 20h</li>
+          <li>mercredi : 8h - 20h</li>
+          <li>jeudi : 8h - 20h</li>
+          <li>vendredi : fermé</li>
+          <li>samedi : fermé</li>
+          <li>dimanche : fermé</li>
+        </ul>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.7856222771125!2d4.83641487482085!3d45.7754864126173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4e033d1c427cc493%3A0x81a7b06162ff792b!2sCaroline%20Gaillard%20-%20Kinesiologue%20Lyon!5e0!3m2!1sfr!2sfr!4v1715173703040!5m2!1sfr!2sfr"
           width="600"
@@ -74,7 +98,7 @@ const pricingContact = () => {
         <h2 className="pricing-contact__schedule__title">
           Programmer un rendez-vous
         </h2>
-        <CalendlyEmbed url="https://calendly.com/" />
+        <CalendlyEmbed url="https://calendly.com/carolinegaillard-kinesiologue/seance-de-kinesiologie" />
       </section>
       <LinkPageButton
         className={'pricing-contact'}

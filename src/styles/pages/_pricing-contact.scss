@@ -23,7 +23,9 @@
         }
       }
     }
-
+    &__link {
+      grid-row: 5;
+    }
     &__map {
       width: 100vw;
       align-self: center;
@@ -34,6 +36,10 @@
       @include tb-desk {
         width: 80vw;
       }
+    }
+    &__schedule {
+      justify-self: flex-start;
+      margin-left: 15px;
     }
   }
   &__pricing {
@@ -59,8 +65,18 @@
       }
     }
   }
+  &__contact {
+    &__scheduleIco {
+      width: 16px;
+      margin-right: 5px;
+    }
+  }
 }
 
 .indexLink {
   width: 300px;
+}
+
+.calendly-inline-widget {
+  height: 650px;
 }
