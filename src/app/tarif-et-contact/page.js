@@ -19,7 +19,7 @@ export const metadata = {
 const pricingContact = () => {
   return (
     <main className="pricing-contact">
-      <h1>Tarif et Contact</h1>
+      <h1 className="pricing-contact__title">Tarif et Contact</h1>
       <section className="pricing-contact__contact">
         <h2 className="pricing-contact__contact__title">
           Envie de commencer ?

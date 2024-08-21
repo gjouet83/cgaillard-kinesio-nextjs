@@ -1,9 +1,9 @@
 .pricing-contact {
+  &__title {
+    box-shadow: $boxShadow;
+  }
   &__contact {
     display: grid;
-    &__title {
-      margin: 20px;
-    }
     &__address {
       display: grid;
       gap: 0 18px;
@@ -39,7 +39,7 @@
     }
     &__schedule {
       justify-self: flex-start;
-      margin-left: 15px;
+      margin-left: 5px;
     }
   }
   &__pricing {

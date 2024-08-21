@@ -1,10 +1,16 @@
 html {
-  h1,
   h2,
   h3 {
-    padding-top: 20px;
+    padding: 20px 10px 20px 10px;
     text-align: center;
     margin: 0;
+  }
+  h1 {
+    background-color: rgba(247, 238, 219, 1);
+    border-radius: 25px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
   }
   a {
     text-decoration: none;
@@ -17,7 +23,7 @@ html {
   }
   body {
     margin: 0;
-    background-color: rgba(247, 238, 219, 1);
+    background-color: rgba(232, 214, 195, 1);
   }
   figure {
     margin: 0;

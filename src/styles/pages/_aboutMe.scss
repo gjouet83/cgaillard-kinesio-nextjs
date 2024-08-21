@@ -1,4 +1,7 @@
 .aboutMe {
+  &__title {
+    box-shadow: $boxShadow;
+  }
   &__figure {
     margin: 10px;
     &__image {
