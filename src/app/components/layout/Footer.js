@@ -87,48 +87,48 @@ const Footer = () => {
               />
             </Link>
           </div>
-          <div className="footer__firstcontainer__partner">
-            <Link
-              href="https://www.federationkinesiologiqueprofessionnelle.fr/"
-              target="_blank"
-              rel="noreferrer"
-              className="footer__firstcontainer__partner__figure__link"
-              aria-label="fédération de kinésiologie professionnelle"
-            >
-              <figure className="footer__firstcontainer__partner__figure">
-                <ExportedImage
-                  src={fkpLogo}
-                  alt="logo de la fédération de kinésiologie professionnelle"
-                  className="footer__firstcontainer__partner__figure__img"
-                  width={200}
-                />
+        </div>
+        <div className="footer__firstcontainer__partner">
+          <Link
+            href="https://www.federationkinesiologiqueprofessionnelle.fr/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer__firstcontainer__partner__figure__link"
+            aria-label="fédération de kinésiologie professionnelle"
+          >
+            <figure className="footer__firstcontainer__partner__figure">
+              <ExportedImage
+                src={fkpLogo}
+                alt="logo de la fédération de kinésiologie professionnelle"
+                className="footer__firstcontainer__partner__figure__img"
+                width={200}
+              />
 
-                <figcaption className="footer__firstcontainer__partner__figcaption">
-                  Membre de la Fédération de Kinésiologie Professionnelle
-                </figcaption>
-              </figure>
-            </Link>
-            <Link
-              href="https://espace-re-source.fr/tete-dor/"
-              target="_blank"
-              rel="noreferrer"
-              className="footer__firstcontainer__partner__figure__link"
-              aria-label="Espace Re-Source"
-            >
-              <figure className="footer__firstcontainer__partner__figure">
-                <ExportedImage
-                  src={teteOr}
-                  alt="logo de espace Re-Source"
-                  className="footer__firstcontainer__partner__figure__img"
-                  width={100}
-                />
+              <figcaption className="footer__firstcontainer__partner__figcaption">
+                Membre de la Fédération de Kinésiologie Professionnelle
+              </figcaption>
+            </figure>
+          </Link>
+          <Link
+            href="https://espace-re-source.fr/tete-dor/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer__firstcontainer__partner__figure__link"
+            aria-label="Espace Re-Source"
+          >
+            <figure className="footer__firstcontainer__partner__figure">
+              <ExportedImage
+                src={teteOr}
+                alt="logo de espace Re-Source"
+                className="footer__firstcontainer__partner__figure__img"
+                width={100}
+              />
 
-                <figcaption className="footer__firstcontainer__partner__figcaption">
-                  UN ESPACE DE CO-WORKING ZEN À LYON
-                </figcaption>
-              </figure>
-            </Link>
-          </div>
+              <figcaption className="footer__firstcontainer__partner__figcaption">
+                UN ESPACE DE CO-WORKING ZEN À LYON
+              </figcaption>
+            </figure>
+          </Link>
         </div>
       </div>
     </footer>

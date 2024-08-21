@@ -5,6 +5,9 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 10px;
+    @include tb-desk {
+      flex-direction: row;
+    }
     &__contact {
       @include tb-desk {
         border-right: 1px solid white;
@@ -45,7 +48,7 @@
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
       @include tb-desk {
-        border-bottom: inherit;
+        border: none;
         max-width: 350px;
         padding-left: 20px;
       }
@@ -78,9 +81,7 @@
     &__socialNetwork {
       border-top: 1px solid white;
       @include tb-desk {
-        border-left: 1px solid white;
-        border-bottom: none;
-        padding-left: 5%;
+        border: none;
       }
       &__content {
         display: flex;
