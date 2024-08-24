@@ -4,16 +4,14 @@ import beach from '../../../../public/images/beach.jpg';
 const Why = () => {
   return (
     <section className="home__why">
-      <div className="home__why__container">
-        <ExportedImage
-          className="home__why__container__image"
-          src={beach}
-          alt="plage en contre-jour avec une silhouette au loin"
-        />
-      </div>
       <h2 className="home__why__title">
         Pour quelles raisons consulter une kinésiologue ?
       </h2>
+      <ExportedImage
+        className="home__why__image"
+        src={beach}
+        alt="plage en contre-jour avec une silhouette au loin"
+      />
       <ul className="home__why__list">
         <li className="home__why__list__element">
           <strong>Plein.e de doutes</strong>, vous trouvez difficile de{' '}

@@ -8,7 +8,8 @@ const Profits = () => {
         <ExportedImage
           className="home__profits__container__image"
           src={seatOnTheBeach}
-          alt="plage"
+          alt="siège suspendu a une branche d'arbre sur une plage"
+          priority
         />
       </div>
       <h2 className="home__profits__title">

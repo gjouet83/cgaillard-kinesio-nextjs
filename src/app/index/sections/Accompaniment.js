@@ -9,7 +9,7 @@ const Accompaniment = () => {
         <ExportedImage
           className="home__accompaniment__container__image"
           src={fingerTouch}
-          alt="plage en contre-jour avec une silhouette au loin"
+          alt="deux mains qui se rapproche et qui se touchent l'index"
           priority
         />
       </div>
