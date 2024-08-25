@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 
 export default function Navbar({ open, setOpen }) {
@@ -10,8 +11,8 @@ export default function Navbar({ open, setOpen }) {
           </Link>
         </li>
         <li className={`navbar__list__element ${open && 'textOpacity'}`}>
-          <Link href="/mon-approche" onClick={() => setOpen(false)}>
-            Mon Approche
+          <Link href="/deroulement-des-seances" onClick={() => setOpen(false)}>
+            Déroulement des séances
           </Link>
         </li>
         <li className={`navbar__list__element ${open && 'textOpacity'}`}>
@@ -21,7 +22,7 @@ export default function Navbar({ open, setOpen }) {
         </li>
         <li className={`navbar__list__element ${open && 'textOpacity'}`}>
           <Link href="/tarif-et-contact" onClick={() => setOpen(false)}>
-            Tarifs &amp; Contact
+            Tarif &amp; Contact
           </Link>
         </li>
       </ul>

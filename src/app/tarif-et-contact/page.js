@@ -21,9 +21,7 @@ const pricingContact = () => {
     <main className="pricing-contact">
       <h1 className="pricing-contact__title">Tarif et Contact</h1>
       <section className="pricing-contact__contact">
-        <h2 className="pricing-contact__contact__title">
-          Envie de commencer ?
-        </h2>
+        <h2 className="pricing-contact__contact__title">Passer à l'action</h2>
         <LinkPageButton
           className={'pricing-contact__contact__link'}
           href={'#schedule'}
@@ -66,23 +64,34 @@ const pricingContact = () => {
             13 Cr d'Herbouville, 69004 Lyon
           </Link>
         </address>
-        <h3 className="pricing-contact__contact__schedule">
-          <FontAwesomeIcon
-            icon={faClock}
-            className="pricing-contact__contact__scheduleIco"
-            aria-label="Icone qui représente une horloge"
-          />
-          Horaires
-        </h3>
-        <ul>
-          <li>lundi : 8h - 20h</li>
-          <li>mardi : 8h - 20h</li>
-          <li>mercredi : 8h - 20h</li>
-          <li>jeudi : 8h - 20h</li>
-          <li>vendredi : fermé</li>
-          <li>samedi : fermé</li>
-          <li>dimanche : fermé</li>
-        </ul>
+        <div className="pricing-contact__contact__schedule">
+          <h3 className="pricing-contact__contact__schedule__title">
+            <FontAwesomeIcon
+              icon={faClock}
+              className="pricing-contact__contact__schedule__title__scheduleIco"
+              aria-label="Icone qui représente une horloge"
+            />
+            Horaires d'ouverture du cabinet
+          </h3>
+          <ul>
+            <li>lundi : 8h - 20h</li>
+            <li>mardi : 8h - 20h</li>
+            <li>mercredi : 8h - 20h</li>
+            <li>jeudi : 8h - 20h</li>
+            <li>vendredi : fermé</li>
+            <li>samedi : fermé</li>
+            <li>dimanche : fermé</li>
+          </ul>
+        </div>
+        <div className="pricing-contact__contact__pricing">
+          <h3 className="pricing-contact__contact__pricing__title">Tarif</h3>
+          <span className="pricing-contact__contact__pricing__content">
+            70€
+          </span>
+          <span className="pricing-contact__contact__pricing__content">
+            durée de la séance 1h15
+          </span>
+        </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.7856222771125!2d4.83641487482085!3d45.7754864126173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4e033d1c427cc493%3A0x81a7b06162ff792b!2sCaroline%20Gaillard%20-%20Kinesiologue%20Lyon!5e0!3m2!1sfr!2sfr!4v1715173703040!5m2!1sfr!2sfr"
           width="600"

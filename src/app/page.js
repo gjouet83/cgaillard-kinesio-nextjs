@@ -22,13 +22,18 @@ const Home = () => {
       />
       <Why />
       <Accompaniment />
+      <LinkPageButton
+        className={'home'}
+        href={'/deroulement-des-seances'}
+        text={'Déroulement des séances'}
+      />
       <Profits />
-      <GoogleReviews />
       <LinkPageButton
         className={'home'}
         href={'/a-propos-de-moi'}
         text={'A propos de moi'}
       />
+      <GoogleReviews />
     </main>
   );
 };
