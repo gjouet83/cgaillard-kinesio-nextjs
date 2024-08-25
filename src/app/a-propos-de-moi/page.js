@@ -80,6 +80,11 @@ const AboutMe = () => {
       </section>
       <LinkPageButton
         className={'aboutMe__contact'}
+        href={'/deroulement-des-seances'}
+        text={'Déroulement des séances'}
+      />
+      <LinkPageButton
+        className={'aboutMe__contact'}
         href={'/tarif-et-contact'}
         text={'Prendre rendez-vous'}
       />

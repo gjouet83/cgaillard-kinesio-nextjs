@@ -13,9 +13,9 @@ const Accompaniment = () => {
           priority
         />
       </div>
-      <h3 className="home__accompaniment__title">
+      <h2 className="home__accompaniment__title">
         L'accompagnement en kinésiologie : la clé du changement.
-      </h3>
+      </h2>
       <div className="home__accompaniment__textContainer">
         <ul className="home__accompaniment__textContainer__list">
           <li className="home__accompaniment__textContainer__list__element">
@@ -54,17 +54,16 @@ const Accompaniment = () => {
             peut prolonger<strong>la souffrance inutilement</strong>
           </li>
           <li className="home__accompaniment__textContainer__list__element">
-            <strong>Clarifier </strong>ce qui est <strong>vécu </strong>et
-            <strong>ressenti </strong>permet de mettre en place de
-            <strong>nouvelles choses</strong>, d'amorcer un
-            <strong>changement </strong>plus juste et
-            <strong>essentiel</strong>, de se remettre en
-            <strong>mouvement.</strong>
+            <strong>Clarifier </strong>ce qui est <strong>vécu </strong>et{' '}
+            <strong>ressenti </strong>permet de mettre en place de{' '}
+            <strong>nouvelles choses</strong>, d'amorcer un{' '}
+            <strong>changement </strong>plus juste et <strong>essentiel</strong>
+            , de se remettre en <strong>mouvement.</strong>
           </li>
           <li className="home__accompaniment__textContainer__list__element">
-            N'oubliez pas que<strong>demander de l'aide</strong>n'est pas un
-            signe de faiblesse, mais plutôt une
-            <strong>démonstration de force</strong>et de
+            N'oubliez pas que <strong>demander de l'aide </strong>n'est pas un{' '}
+            signe de faiblesse, mais plutôt une{' '}
+            <strong>démonstration de force </strong>et de{' '}
             <strong>volonté d'amélioration personnelle</strong>
           </li>
         </ul>

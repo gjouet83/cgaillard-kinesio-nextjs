@@ -28,4 +28,14 @@ html {
   figure {
     margin: 0;
   }
+  main {
+    @include tb-desk {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    @include desktop {
+      margin-right: 150px;
+      margin-left: 150px;
+    }
+  }
 }

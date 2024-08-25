@@ -12,59 +12,45 @@ const Profits = () => {
           priority
         />
       </div>
-      <h3 className="home__profits__title">
-        L'accompagnement en kinésiologie : la clé du changement.
-      </h3>
+      <h2 className="home__profits__title">
+        Quels sont les bienfaits de la kinésiologie ?
+      </h2>
       <div className="home__profits__textContainer">
         <ul className="home__profits__textContainer__list">
           <li className="home__profits__textContainer__list__element">
-            <strong>Chaque</strong> <strong>difficulté</strong> rencontrée dans
-            la vie est <strong>une invitation au changement</strong>.
+            Tout est plus clair pour vous, vous savez désormais où aller et
+            comment faire.
           </li>
           <li className="home__profits__textContainer__list__element">
-            Chaque problème a <strong>une solution</strong>
+            Plus <strong>confiant.e</strong>, vous avancez avec{' '}
+            <strong>assurance</strong>.
           </li>
           <li className="home__profits__textContainer__list__element">
-            Tout changement profond et durable est <strong>possible</strong>.
+            <strong>Reboosté.e</strong>, vous êtes à nouveau{' '}
+            <strong>plein.e d'énergie</strong> et d'allant.
           </li>
           <li className="home__profits__textContainer__list__element">
-            Il est fréquent d'<strong>hésiter </strong>
+            Libéré.e de vos <strong>angoisses</strong>, vous êtes plus{' '}
+            <strong>détendu.e</strong>.
           </li>
           <li className="home__profits__textContainer__list__element">
-            <em>"Mon problème n'est pas important..."</em>
+            <strong>Libéré.e</strong> de votre <strong>stress</strong>, vous
+            êtes bien dans votre tête et dans votre corps.
           </li>
           <li className="home__profits__textContainer__list__element">
-            <em>"J'embête tout le monde avec mes soucis..."</em>
+            Vos émotions prennent moins de place dans votre vie, vous vous
+            sentez plus <strong>apaisé.e</strong>.
           </li>
           <li className="home__profits__textContainer__list__element">
-            <em>"Je ne saurais pas quoi dire..."</em>
+            Libéré.e du poids du passé, vous vous sentez enfin en paix.
           </li>
           <li className="home__profits__textContainer__list__element">
-            <em>"Je n'ai pas le temps..."; "Ce n'est pas si grave..."</em>
+            Comprendre, apprendre devient plus fluide et motivant. Vos
+            apprentissages et l'aboutissement de vos projets sont facilités.
           </li>
           <li className="home__profits__textContainer__list__element">
-            <em>"Je n'y arriverai pas..."</em>
-          </li>
-          <li className="home__profits__textContainer__list__element">
-            <em>"J'ai honte..."; "J'ai peur..."</em>
-          </li>
-          <li className="home__profits__textContainer__list__element">
-            <strong>Attendre </strong>trop longtemps avant de demander de l'aide
-            peut prolonger<strong>la souffrance inutilement</strong>
-          </li>
-          <li className="home__profits__textContainer__list__element">
-            <strong>Clarifier </strong>ce qui est <strong>vécu </strong>et
-            <strong>ressenti </strong>permet de mettre en place de
-            <strong>nouvelles choses</strong>, d'amorcer un
-            <strong>changement </strong>plus juste et
-            <strong>essentiel</strong>, de se remettre en
-            <strong>mouvement.</strong>
-          </li>
-          <li className="home__profits__textContainer__list__element">
-            N'oubliez pas que<strong>demander de l'aide</strong>n'est pas un
-            signe de faiblesse, mais plutôt une
-            <strong>démonstration de force</strong>et de
-            <strong>volonté d'amélioration personnelle</strong>
+            Vous retrouvez l'<strong>équilibre dans votre vie</strong>. Le{' '}
+            <strong>bien-être</strong> s'installe.
           </li>
         </ul>
       </div>

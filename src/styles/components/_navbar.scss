@@ -13,11 +13,14 @@
   @include tb-desk {
     position: relative;
     height: fit-content;
-    width: 65vw;
+    width: 63vw;
     transform: scaleX(1);
     top: 0;
     z-index: 1;
     margin-right: 10px;
+    @include desktop {
+      width: 55vw;
+    }
   }
   &__list {
     list-style: none;

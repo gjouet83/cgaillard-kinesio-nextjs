@@ -5,6 +5,7 @@ import Hero from './index/sections/Hero';
 import Why from './index/sections/Why';
 import Accompaniment from './index/sections/Accompaniment';
 import Profits from './index/sections/Profits';
+import HowTo from './index/sections/HowTo';
 
 export const metadata = {
   title: 'Accueil - Caroline Gaillard - Kinésiologue à Lyon',
@@ -17,9 +18,10 @@ const Home = () => {
       <Hero />
       <LinkPageButton
         className={'home__hero__contact'}
-        href={'/tarif-et-contact'}
+        href={'/tarif-et-contact#schedule'}
         text={'Prendre rendez-vous'}
       />
+      <HowTo />
       <Why />
       <Accompaniment />
       <LinkPageButton
@@ -29,9 +31,9 @@ const Home = () => {
       />
       <Profits />
       <LinkPageButton
-        className={'home'}
-        href={'/a-propos-de-moi'}
-        text={'A propos de moi'}
+        className={'home__hero__pricing-contact'}
+        href={'/tarif-et-contact'}
+        text={'Tarif & Contact'}
       />
       <GoogleReviews />
     </main>

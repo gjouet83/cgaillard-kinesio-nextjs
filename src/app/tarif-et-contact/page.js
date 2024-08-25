@@ -21,7 +21,7 @@ const pricingContact = () => {
     <main className="pricing-contact">
       <h1 className="pricing-contact__title">Tarif et Contact</h1>
       <section className="pricing-contact__contact">
-        <h2 className="pricing-contact__contact__title">Passer à l'action</h2>
+        <h2 className="pricing-contact__contact__title">Passez à l'action !</h2>
         <LinkPageButton
           className={'pricing-contact__contact__link'}
           href={'#schedule'}

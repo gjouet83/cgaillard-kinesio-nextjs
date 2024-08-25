@@ -21,9 +21,6 @@
         object-fit: cover;
         opacity: 0.8;
         z-index: -1;
-        @include tablet {
-          width: 100vw;
-        }
         @include tb-desk {
           opacity: 1;
           width: 100%;
@@ -56,7 +53,7 @@
         position: relative;
         border-radius: 10px;
         font-size: 45px;
-        line-height: 3rem;
+        line-height: 4rem;
         padding-left: 50px;
       }
     }
@@ -78,6 +75,7 @@
       @include tb-desk {
         font-size: 30px;
         padding-left: 50px;
+        line-height: 4rem;
       }
     }
     &__contact {
@@ -93,6 +91,54 @@
       }
     }
   }
+  &__howTo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1290px;
+    text-align: center;
+    @include tb-desk {
+      display: grid;
+      grid-template-columns: 1fr 0.3fr;
+      border-radius: 15px;
+      box-shadow: $boxShadow;
+      background-color: $DivBackgroundColor;
+    }
+    &__title {
+      margin-top: 30px;
+      @include tb-desk {
+        margin-top: 0;
+        grid-column: 1;
+        grid-row: 1;
+      }
+    }
+    &__aside {
+      background-color: $asideBackgroundColor;
+      margin: 20px;
+      border-radius: 15px;
+      box-shadow: $boxShadow;
+      font-style: italic;
+      line-height: 1.3rem;
+      @include tb-desk {
+        display: flex;
+        align-items: center;
+        grid-column: 2;
+        grid-row: 1/4;
+        @include desktop {
+          line-height: 1.8rem;
+        }
+      }
+    }
+    &__text {
+      line-height: 1.6rem;
+      font-size: 1.2rem;
+      @include tb-desk {
+        align-self: center;
+        padding: 50px;
+        grid-row: 2;
+        line-height: 4rem;
+      }
+    }
+  }
   &__why {
     display: grid;
     grid-template-rows: auto;
@@ -102,7 +148,7 @@
     @include tb-desk {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
-      max-width: 80vw;
+      max-width: 1290px;
       margin: 0 auto;
       padding-top: 0;
     }
@@ -115,7 +161,6 @@
       height: 800px;
       @include tb-desk {
         grid-column: 2;
-        height: 800px;
         width: 100%;
       }
     }
@@ -131,21 +176,23 @@
         padding-bottom: 40px;
       }
     }
-    &__list {
+    &__textContainer {
+      display: flex;
+      flex-direction: column;
       grid-row: 2;
       grid-column: 1;
+      @include tb-desk {
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.3);
+      }
+    }
+    &__list {
       padding-right: 10px;
       padding-top: 36px;
       @include tb-desk {
         margin: 0;
         grid-row: 2;
         grid-column: 1;
-        background: rgba(255, 255, 255, 0.3);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
       }
       &__element {
         line-height: 1.2rem;
@@ -174,7 +221,7 @@
     overflow: hidden;
     @include tb-desk {
       grid-template-columns: 1fr 1fr;
-      width: 80vw;
+      max-width: 1290px;
       margin: 0 auto;
     }
     &__container {
@@ -211,17 +258,23 @@
       }
     }
     &__textContainer {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
       margin: 5px;
       grid-row: 2;
       grid-column: 1;
       background: rgba(255, 255, 255, 0.3);
-      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
       border-radius: 10px;
       border: 1px solid rgba(255, 255, 255, 0.18);
       @include tb-desk {
         margin: 0;
+        border: none;
+        box-shadow: none;
+        backdrop-filter: none;
+        border-radius: 0;
       }
       &__list {
         padding-top: 20px;
