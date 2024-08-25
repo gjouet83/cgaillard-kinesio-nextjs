@@ -4,7 +4,7 @@ const GoogleReviews = async () => {
   const reviews = await fetchGoogleReviews();
   return (
     <section className="home__googleReviews">
-      <h2>Avis Google</h2>
+      <h3>Avis Google</h3>
       <ul>
         {reviews.map((review, index) => (
           <li key={index}>

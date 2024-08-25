@@ -12,9 +12,9 @@ const Profits = () => {
           priority
         />
       </div>
-      <h2 className="home__profits__title">
+      <h3 className="home__profits__title">
         L'accompagnement en kinésiologie : la clé du changement.
-      </h2>
+      </h3>
       <div className="home__profits__textContainer">
         <ul className="home__profits__textContainer__list">
           <li className="home__profits__textContainer__list__element">

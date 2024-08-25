@@ -50,6 +50,8 @@
       color: $HeaderBackgroundColor;
       animation: ease-in-out 1.5s forwards appear;
       @extend %textShadow;
+      border: none;
+      background-color: transparent;
       @include tb-desk {
         position: relative;
         border-radius: 10px;
@@ -86,7 +88,7 @@
         grid-column: 2;
         grid-row: 2;
         top: -90px;
-        left: 150px;
+        left: 13%;
         margin: 0;
       }
     }

@@ -4,9 +4,9 @@ import beach from '../../../../public/images/beach.jpg';
 const Why = () => {
   return (
     <section className="home__why">
-      <h2 className="home__why__title">
+      <h3 className="home__why__title">
         Pour quelles raisons consulter une kinésiologue ?
-      </h2>
+      </h3>
       <ExportedImage
         className="home__why__image"
         src={beach}
