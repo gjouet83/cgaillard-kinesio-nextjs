@@ -2,4 +2,46 @@
   &__title {
     box-shadow: $boxShadow;
   }
+  &__call,
+  &__session,
+  &__regularity,
+  &__evolution {
+    @include tb-desk {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    &__title {
+      @include tb-desk {
+        grid-column: 1/3;
+      }
+    }
+    &__imageContainer {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+      &__image {
+        width: 100%;
+        height: auto;
+      }
+    }
+    &__textContainer {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      line-height: 1.2rem;
+      background-color: $DivBackgroundColor;
+      margin: 20px;
+      border-radius: 15px;
+      box-shadow: $boxShadow;
+      @include tb-desk {
+        line-height: 1.6rem;
+      }
+      &__list {
+        text-align: left;
+      }
+    }
+  }
 }

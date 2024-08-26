@@ -11,9 +11,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CalendlyEmbed from '../utils/CalendlyEmbed';
 
 export const metadata = {
-  title: 'A propos de moi - Caroline Gaillard - Kinésiologue à Lyon',
+  title: 'Tarif et Contact - Caroline Gaillard - Kinésiologue à Lyon',
   description:
-    'Caroline Gaillard vous accueille dans son cabinet de kinésiologie à Lyon Croix Rousse',
+    'Consultez les tarifs pour les services dispensés par Caroline Gaillard et trouvez les informations de contact pour prendre rendez-vous ou poser des questions.',
 };
 
 const pricingContact = () => {

@@ -131,6 +131,9 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+      <div className="footer__secondcontainer">
+        <Link href="/credits-photos">Crédits photos: Freepik </Link>
+      </div>
     </footer>
   );
 };
