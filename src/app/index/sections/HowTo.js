@@ -15,7 +15,7 @@ const HowTo = () => {
         vous souhaitez mettre en place pour vous, qui vous semble juste et
         essentiel.
       </p>
-      <aside class="home__howTo__aside">
+      <aside className="home__howTo__aside">
         <p>
           <strong>La kinésiologie</strong> (qui signifie étymologiquement « la
           science du mouvement ») est une technique de rééquilibrage

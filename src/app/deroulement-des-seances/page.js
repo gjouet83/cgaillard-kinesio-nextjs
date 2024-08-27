@@ -24,9 +24,9 @@ const MonApproche = () => {
           <ExportedImage
             className="approach__call__imageContainer__image"
             src={Phone}
-            width={4160}
-            height={4160}
+            sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
             alt="un combiné de téléphone"
+            priority
           />
         </div>
         <div className="approach__call__textContainer">
@@ -48,8 +48,7 @@ const MonApproche = () => {
           <ExportedImage
             className="approach__session__imageContainer__image"
             src={Firstsession}
-            width={4830}
-            height={3220}
+            sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
             alt="deux personne assises en taiileur et se touchant la main"
           />
         </div>
@@ -94,8 +93,7 @@ const MonApproche = () => {
           <ExportedImage
             className="approach__regularity__imageContainer__image"
             src={Renew}
-            width={5000}
-            height={3337}
+            sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
             alt="une personne qui tient un papier sur lequel est inscrit renew au dessus d'un agenda"
           />
         </div>
@@ -126,8 +124,7 @@ const MonApproche = () => {
           <ExportedImage
             className="approach__evolution__imageContainer__image"
             src={Evolution}
-            width={6455}
-            height={3873}
+            sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
             alt="les différentes étapes de l'évolution d'une plante a partir de la graine"
           />
         </div>

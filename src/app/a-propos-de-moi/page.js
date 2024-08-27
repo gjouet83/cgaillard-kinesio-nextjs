@@ -21,7 +21,9 @@ const AboutMe = () => {
           <ExportedImage
             className="aboutMe__describ__figure__image"
             src={aboutMe}
+            sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
             alt="portrait de caroline gaillard sourillante"
+            priority
           />
           <figcaption className="aboutMe__describ__figure__figcaption">
             Caroline Gaillard

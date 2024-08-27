@@ -10,7 +10,9 @@ const Why = () => {
       <ExportedImage
         className="home__why__image"
         src={beach}
+        sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
         alt="plage en contre-jour avec une silhouette au loin"
+        loading="lazy"
       />
       <div className="home__why__textContainer">
         <ul className="home__why__list">

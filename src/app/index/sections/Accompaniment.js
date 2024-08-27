@@ -9,8 +9,9 @@ const Accompaniment = () => {
         <ExportedImage
           className="home__accompaniment__container__image"
           src={fingerTouch}
+          sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
           alt="deux mains qui se rapproche et qui se touchent l'index"
-          priority
+          loading="lazy"
         />
       </div>
       <h2 className="home__accompaniment__title">

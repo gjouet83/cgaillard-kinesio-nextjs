@@ -8,8 +8,9 @@ const Profits = () => {
         <ExportedImage
           className="home__profits__container__image"
           src={seatOnTheBeach}
+          sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
           alt="siège suspendu a une branche d'arbre sur une plage"
-          priority
+          loading="lazy"
         />
       </div>
       <h2 className="home__profits__title">

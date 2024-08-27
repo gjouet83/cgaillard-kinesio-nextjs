@@ -5,6 +5,8 @@
   width: 48px;
   height: 48px;
   z-index: 999;
+  grid-row: 1;
+  grid-column: 2;
   @include tb-desk {
     display: none;
   }
@@ -16,6 +18,9 @@
     align-items: center;
     width: 40px;
     height: 39px;
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 998;
     @include tb-desk {
       display: none;
     }
