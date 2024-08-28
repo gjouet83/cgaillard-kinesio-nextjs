@@ -25,9 +25,10 @@
   }
   &__list {
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     padding: 20%;
+    margin-top: 60px;
     @include tb-desk {
       display: flex;
       padding: 0;
@@ -36,10 +37,12 @@
     }
 
     &__element {
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 30px;
       opacity: 0;
       transition: all 300ms ease-in-out;
+      a {
+        line-height: 2rem;
+      }
       @include tb-desk {
         opacity: 1;
         &:hover a {

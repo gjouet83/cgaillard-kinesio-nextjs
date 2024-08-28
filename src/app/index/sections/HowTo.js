@@ -4,16 +4,17 @@ const HowTo = () => {
   return (
     <section className="home__howTo">
       <h2 className="home__howTo__title">
-        Bonjour, je m'appelle Caroline Gaillard et je suis kinésiologue à Lyon 4
+        Bonjour, je m'appelle Caroline Gaillard et je suis kinésiologue
+        certifiée à Lyon 4
       </h2>
       <p className="home__howTo__text">
         Je vous accueille dans mon cabinet, dans un espace propice à l’écoute et
-        à la bienveillance. Au cours de la séance, nous explorons à votre rythme
-        les aspects de votre vie qui nécessitent une attention particulière. Je
-        vous invite à accueillir pleinement toutes les parties de vous pour vous
-        permettre de clarifier ce que vous vivez. Je vous accompagne dans ce que
-        vous souhaitez mettre en place pour vous, qui vous semble juste et
-        essentiel.
+        à la <strong>bienveillance</strong>. Au cours de la séance, nous
+        explorons à votre rythme les aspects de votre vie qui nécessitent une
+        attention particulière. Je vous invite à accueillir pleinement toutes
+        les parties de vous pour vous permettre de clarifier ce que vous vivez.
+        Je vous accompagne dans ce que vous souhaitez mettre en place pour vous,
+        qui vous semble juste et essentiel.
       </p>
       <aside className="home__howTo__aside">
         <p>

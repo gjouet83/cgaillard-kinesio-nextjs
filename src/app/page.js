@@ -10,7 +10,7 @@ import HowTo from './index/sections/HowTo';
 export const metadata = {
   title: 'Accueil - Caroline Gaillard - Kinésiologue à Lyon',
   description:
-    'Caroline Gaillard, kinésiologue à Lyon, propose des séances pour améliorer votre bien-être physique et émotionnel. Prenez rendez-vous aujourd’hui.',
+    'Caroline Gaillard, kinésiologue certifiée à Lyon, propose des séances pour améliorer votre bien-être physique et émotionnel. Prenez rendez-vous aujourd’hui.',
 };
 const Home = () => {
   return (

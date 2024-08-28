@@ -132,7 +132,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__secondcontainer">
-        <Link href="/credits-photos">Crédits photos: Freepik </Link>
+        <Link href="/credits-photos">Crédits photos: Designed by Freepik </Link>
       </div>
     </footer>
   );
