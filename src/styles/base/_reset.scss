@@ -29,6 +29,10 @@ html {
     margin: 0;
   }
   main {
+    @include tablet {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
     @include tb-desk {
       margin-left: 20px;
       margin-right: 20px;

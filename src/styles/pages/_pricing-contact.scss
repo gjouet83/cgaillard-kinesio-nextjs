@@ -4,7 +4,11 @@
   }
   &__contact {
     display: grid;
+    @include tablet {
+      display: block;
+    }
     @include tb-desk {
+      display: grid;
       grid-template-columns: 1fr 1fr 1fr;
     }
     &__title {
@@ -48,6 +52,9 @@
       margin-bottom: 30px;
       margin-top: 30px;
       border: none;
+      @include tablet {
+        width: 100%;
+      }
       @include tb-desk {
         width: 80vw;
         grid-column: 1/4;

@@ -85,15 +85,19 @@
   animation: ease-in-out 1s backwards extend;
   animation-delay: 1s;
   z-index: 997;
+  &:hover {
+    transform-origin: center;
+    transform: scale(1.1);
+    transition: transform 200ms, box-shadow 200ms;
+    box-shadow: $boxShadowHover;
+  }
+  @include tablet {
+    width: 70vw;
+  }
   @include tb-desk {
     width: 40vw;
-    &:hover {
-      transform-origin: center;
-      transform: scale(1.1);
-      transition: transform 200ms, box-shadow 200ms;
-      box-shadow: $boxShadowHover;
-    }
   }
+
   & > a {
     display: block;
     text-decoration: none;
