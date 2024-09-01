@@ -7,6 +7,9 @@ export const metadata = {
   title: 'A propos de moi - Caroline Gaillard - Kinésiologue à Lyon',
   description:
     'Découvrez le parcours de Caroline Gaillard, kinésiologue certifiée à Lyon. Caroline vous accompagne avec bienveillance dans votre chemin vers le mieux-être grâce à la kinésiologie.',
+  alternates: {
+    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/a-propos-de-moi/`,
+  },
 };
 
 const AboutMe = () => {

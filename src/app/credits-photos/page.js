@@ -4,6 +4,15 @@ import Phone from '../../../public/images/phone.jpg';
 import Firstsession from '../../../public/images/firstsession.jpg';
 import Evolution from '../../../public/images/grow.jpg';
 import Renew from '../../../public/images/renew.jpg';
+
+export const metadata = {
+  title: 'Crédits photos - Caroline Gaillard - Kinésiologue à Lyon',
+  description:
+    "Consultez le crédit photo pour le site de Caroline Gaillard, kinésiologue certifiée. Découvrez les talents photographiques qui ont contribué à mettre en lumière l'essence de la kinésiologie et du bien-être.",
+  alternates: {
+    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/credits-photos/`,
+  },
+};
 const creditsPhotos = () => {
   return (
     <main className="creditsPhotos">

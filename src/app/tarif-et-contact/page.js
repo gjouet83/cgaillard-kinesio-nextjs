@@ -14,6 +14,9 @@ export const metadata = {
   title: 'Tarif et Contact - Caroline Gaillard - Kinésiologue à Lyon',
   description:
     'Consultez les tarifs pour les services dispensés par Caroline Gaillard et trouvez les informations de contact pour prendre rendez-vous ou poser des questions.',
+  alternates: {
+    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/tarif-et-contact/`,
+  },
 };
 
 const pricingContact = () => {

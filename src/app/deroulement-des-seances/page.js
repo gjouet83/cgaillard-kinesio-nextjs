@@ -7,9 +7,12 @@ import Renew from '../../../public/images/renew.jpg';
 import { LinkPageButton } from '../components/ui/Buttons';
 
 export const metadata = {
-  title: 'A propos de moi - Caroline Gaillard - Kinésiologue à Lyon',
+  title: 'Déroulement des séances - Caroline Gaillard - Kinésiologue à Lyon',
   description:
-    'Caroline Gaillard vous accueille dans son cabinet de kinésiologie à Lyon Croix Rousse',
+    "Explorez le contenu d'une séance dispensée par Caroline Gaillard. Découvrez les sujets abordés, les techniques utilisées et les bénéfices pour votre bien-être.",
+  alternates: {
+    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/deroulement-des-seances/`,
+  },
 };
 const MonApproche = () => {
   return (
