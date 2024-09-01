@@ -15,3 +15,9 @@
     @content;
   }
 }
+
+@mixin only-desk {
+  @media all and (max-width: #{$tb-desk}) {
+    @content;
+  }
+}

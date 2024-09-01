@@ -42,4 +42,10 @@ html {
       margin-left: 150px;
     }
   }
+  .disable-aos-mobile {
+    @include only-desk {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
 }

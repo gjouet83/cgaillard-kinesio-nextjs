@@ -1,6 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
+'use client';
 import { LinkPageButton } from '../../components/ui/Buttons';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const HowTo = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      offset: 50,
+      once: true,
+    });
+  }, []);
   return (
     <section className="home__howTo">
       <h2 className="home__howTo__title">
@@ -16,7 +28,7 @@ const HowTo = () => {
         Je vous accompagne dans ce que vous souhaitez mettre en place pour vous,
         qui vous semble juste et essentiel.
       </p>
-      <aside className="home__howTo__aside">
+      <aside data-aos="fade-right" className="home__howTo__aside">
         <p>
           <strong>La kinésiologie</strong> (qui signifie étymologiquement « la
           science du mouvement ») est une technique de rééquilibrage
