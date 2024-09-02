@@ -83,16 +83,18 @@ const AboutMe = () => {
           objectifs à votre rythme.
         </p>
       </section>
-      <LinkPageButton
-        className={'aboutMe__contact'}
-        href={'/deroulement-des-seances'}
-        text={'Déroulement des séances'}
-      />
-      <LinkPageButton
-        className={'aboutMe__contact'}
-        href={'/tarif-et-contact'}
-        text={'Prendre rendez-vous'}
-      />
+      <section className="aboutMe__links">
+        <LinkPageButton
+          className={'aboutMe__contact'}
+          href={'/deroulement-des-seances'}
+          text={'Déroulement des séances'}
+        />
+        <LinkPageButton
+          className={'aboutMe__contact'}
+          href={'/tarif-et-contact'}
+          text={'Prendre rendez-vous'}
+        />{' '}
+      </section>
     </main>
   );
 };

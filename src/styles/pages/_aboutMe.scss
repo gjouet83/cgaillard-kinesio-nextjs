@@ -85,4 +85,10 @@
       width: 450px;
     }
   }
+  &__links {
+    @include tb-desk {
+      margin-top: 50px;
+      display: flex;
+    }
+  }
 }

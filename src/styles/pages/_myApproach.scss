@@ -20,8 +20,13 @@
       align-items: center;
       margin: 20px;
       &__image {
+        height: 100%;
         width: 100%;
-        height: auto;
+        object-fit: cover;
+        &--no-resize {
+          width: 100%;
+          height: auto;
+        }
       }
     }
     &__textContainer {
@@ -42,6 +47,12 @@
       &__list {
         text-align: left;
       }
+    }
+  }
+  &__links {
+    @include tb-desk {
+      margin-top: 50px;
+      display: flex;
     }
   }
 }
