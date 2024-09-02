@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import ExportedImage from 'next-image-export-optimizer';
-import FirstSection from './sections/firstSection';
+
+import FirstSection from './sections/FirstSection';
 import SecondSection from './sections/SecondSection';
-import { LinkPageButton } from '../components/ui/Buttons';
 import ThirdSection from './sections/ThirdSection';
+import ForthSection from './sections/ForthSection';
+import { LinkPageButton } from '../components/ui/Buttons';
 
 export const metadata = {
   title: 'Déroulement des séances - Caroline Gaillard - Kinésiologue à Lyon',
@@ -20,6 +21,7 @@ const MonApproche = () => {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <ForthSection />
 
       <section className="approach__links">
         <LinkPageButton
