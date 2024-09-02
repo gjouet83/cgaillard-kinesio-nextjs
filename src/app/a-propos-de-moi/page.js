@@ -93,7 +93,7 @@ const AboutMe = () => {
           className={'aboutMe__contact'}
           href={'/tarif-et-contact'}
           text={'Prendre rendez-vous'}
-        />{' '}
+        />
       </section>
     </main>
   );
