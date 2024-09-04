@@ -1,0 +1,22 @@
+.home__googleReviews {
+  &__card {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-row: 1;
+    grid-column: 1;
+    align-items: center;
+    min-width: 300px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 10px;
+    background: rgba(255, 255, 255);
+    margin: 20px;
+    color: black;
+
+    &__authorContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}

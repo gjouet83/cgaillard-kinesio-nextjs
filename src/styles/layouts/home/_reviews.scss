@@ -1,0 +1,21 @@
+.home {
+  &__reviews {
+    display: grid;
+    &__titleContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &__starContainer {
+        background-color: $HeaderBackgroundColor;
+        padding-right: 10px;
+        border-radius: 25px;
+      }
+    }
+    &__cardsContainer {
+      display: flex;
+      overflow: scroll;
+      justify-content: flex-start;
+    }
+  }
+}

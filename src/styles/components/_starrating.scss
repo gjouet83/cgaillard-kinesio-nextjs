@@ -1,0 +1,22 @@
+.star-container {
+  display: flex;
+  padding-left: 10px;
+}
+
+.star {
+  font-size: $star-size;
+  color: $empty-color;
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: '★';
+    color: $filled-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--star-fill, 0%);
+    overflow: hidden;
+    transition: width $transition-duration ease-in-out;
+  }
+}

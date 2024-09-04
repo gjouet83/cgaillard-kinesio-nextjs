@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { LinkPageButton } from './components/ui/Buttons';
-import GoogleReviews from './index/sections/GoogleReviews';
+import GoogleReviews from './index/sections/Reviews';
 import Hero from './index/sections/Hero';
 import Why from './index/sections/Why';
 import Accompaniment from './index/sections/Accompaniment';

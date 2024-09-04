@@ -97,6 +97,9 @@
   @include tb-desk {
     width: 40vw;
   }
+  @include desktop {
+    width: 30vw;
+  }
 
   & > a {
     display: block;
