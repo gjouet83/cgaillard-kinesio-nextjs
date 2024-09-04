@@ -1,6 +1,7 @@
 .home {
   &__reviews {
     display: grid;
+    margin-bottom: 20px;
     &__titleContainer {
       display: flex;
       flex-direction: column;
@@ -15,7 +16,11 @@
     &__cardsContainer {
       display: flex;
       overflow: scroll;
-      justify-content: flex-start;
+      scroll-snap-type: x mandatory;
+      justify-content: center;
+      @include tb-desk {
+        justify-content: flex-start;
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import ReviewsCard from '../../components/ui/ReviewsCard';
-import reviewsData from '../../components/datas/reviewsData'; // Assure-toi que le chemin d'importation est correct
+import reviewsData from '../../components/datas/reviewsData';
 import StarRating from '@/app/components/ui/StarRating';
 
 const Reviews = () => {
@@ -36,9 +36,7 @@ const Reviews = () => {
             key={index}
             text={review.text}
             author={review.author}
-            authorLink={review.authorLink}
             rating={review.rating}
-            date={review.date}
           />
         ))}
       </div>

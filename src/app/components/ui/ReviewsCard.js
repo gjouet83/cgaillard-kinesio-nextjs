@@ -1,17 +1,15 @@
 import StarRating from './StarRating';
 
-const ReviewsCard = ({ text, author, rating, date }) => {
+const ReviewsCard = ({ text, author, rating }) => {
   return (
     <div className="home__googleReviews__card">
       <div className="home__googleReviews__card__authorContainer">
-        <p>
-          <strong>{author}</strong>
-        </p>
+        <span className="home__googleReviews__card__authorContainer__author">
+          {author}
+        </span>
         <StarRating rating={rating} />
       </div>
-
-      <p>{text}</p>
-      <p>{date}</p>
+      <p className="home__googleReviews__card__text">{text}</p>
     </div>
   );
 };

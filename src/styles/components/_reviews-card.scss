@@ -1,22 +1,33 @@
 .home__googleReviews {
   &__card {
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
     grid-row: 1;
     grid-column: 1;
-    align-items: center;
     min-width: 300px;
     height: 300px;
     border: 1px solid rgba(255, 255, 255);
     border-radius: 10px;
-    background: rgba(255, 255, 255);
+    background: #595b5f;
     margin: 20px;
     color: black;
-
+    line-height: 1.5rem;
+    scroll-snap-align: center;
+    @include tb-desk {
+      scroll-snap-align: end;
+    }
     &__authorContainer {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      &__author {
+        font-weight: bolder;
+        color: white;
+        padding: 20px 0 10px 12px;
+      }
+    }
+    &__text {
+      overflow-y: scroll;
+      color: white;
     }
   }
 }

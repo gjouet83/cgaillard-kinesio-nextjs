@@ -14,7 +14,7 @@ const Header = () => {
           src={logo}
           width={150}
           height={150}
-          alt="logo"
+          alt="logo du site caroline gaillard kinésiologue"
           className="header__logo"
         />
         <div className="header__title__text">
