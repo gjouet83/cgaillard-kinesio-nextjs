@@ -26,8 +26,19 @@
       }
     }
     &__text {
+      padding: 20px;
+      align-self: center;
       overflow-y: scroll;
       color: white;
+    }
+    &__link {
+      width: fit-content;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: white;
+      background-color: $HeaderBackgroundColor;
+      border-radius: 20px;
+      justify-self: flex-end;
     }
   }
 }
