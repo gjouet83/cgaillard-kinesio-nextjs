@@ -13,7 +13,7 @@ link: '',
 const reviewsData = [
   {
     author: 'Romane Hamzeh',
-    text: 'Caroline nous met en confiance tout au long de sa pratique.',
+    text: 'Caroline nous met en confiance tout au long de sa pratique...',
     rating: '5',
     link: 'https://maps.app.goo.gl/HqgH5xacW8jpnTQb6',
   },

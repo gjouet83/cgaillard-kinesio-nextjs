@@ -21,7 +21,7 @@ const Reviews = () => {
     <section className="home__reviews">
       <div className="home__reviews__titleContainer">
         <h2 className="home__reviews__titleContainer__title">
-          Ce qu'ils en ont pensé. Extraits des {reviewsData.length} avis
+          Ce qu'ils en ont pensé. Extraits des {reviewsData.length} avis Google
         </h2>
         <span className="home__reviews__titleContainer__averageRating">
           Moyenne des notes: {averageRating.toFixed(1)}
