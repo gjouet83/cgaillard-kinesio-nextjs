@@ -1,18 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client';
+
 import ExportedImage from 'next-image-export-optimizer';
 import fingerTouch from '../../../../public/images/fingerTouch.jpg';
-import { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 const Accompaniment = () => {
-  useEffect(() => {
-    Aos.init({
-      offset: 50,
-      once: true,
-    });
-  }, []);
   return (
     <section className="home__accompaniment">
       <div

@@ -1,17 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client';
 import ExportedImage from 'next-image-export-optimizer';
 import seatOnTheBeach from '../../../../public/images/seatOnBeach.jpg';
-import { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 const Profits = () => {
-  useEffect(() => {
-    Aos.init({
-      offset: 50,
-      once: true,
-    });
-  }, []);
   return (
     <section className="home__profits">
       <div

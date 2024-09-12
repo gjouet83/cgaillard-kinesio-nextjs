@@ -56,6 +56,10 @@
     &__list {
       padding-right: 10px;
       padding-top: 36px;
+      @include tablet {
+        margin-left: 20px;
+        padding-right: 30px;
+      }
       @include tb-desk {
         margin: 0;
         grid-row: 2;

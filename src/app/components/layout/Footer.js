@@ -96,18 +96,7 @@ const Footer = () => {
             className="footer__firstcontainer__partner__figure__link"
             aria-label="fédération de kinésiologie professionnelle"
           >
-            <figure className="footer__firstcontainer__partner__figure">
-              <ExportedImage
-                src={fkpLogo}
-                alt="logo de la fédération de kinésiologie professionnelle"
-                className="footer__firstcontainer__partner__figure__img"
-                width={200}
-              />
-
-              <figcaption className="footer__firstcontainer__partner__figcaption">
-                Membre de la Fédération de Kinésiologie Professionnelle
-              </figcaption>
-            </figure>
+            Membre de la Fédération de Kinésiologie Professionnelle
           </Link>
           <Link
             href="https://espace-re-source.fr/tete-dor/"
@@ -133,6 +122,10 @@ const Footer = () => {
       </div>
       <div className="footer__secondcontainer">
         <Link href="/credits-photos">Crédits photos: Designed by Freepik </Link>
+        <Link href="/mentions-legales">
+          - Mentions légales et politique de confidentialité{' '}
+        </Link>
+        <Link href="/CGU">- Conditions génrales d'utilisation </Link>
       </div>
     </footer>
   );

@@ -1,16 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-'use client';
 import ExportedImage from 'next-image-export-optimizer';
 import beach from '../../../../public/images/beach.jpg';
-import { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 const Why = () => {
-  useEffect(() => {
-    Aos.init({
-      once: true,
-    });
-  }, []);
   return (
     <section className="home__why">
       <h2 className="home__why__title">
