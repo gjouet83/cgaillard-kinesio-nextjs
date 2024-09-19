@@ -2,12 +2,12 @@
 RewriteEngine on
 
 # Redirection vers le domaine avec "www"
-RewriteCond %{HTTP_HOST} ^sitedecaroline.fr [NC]
-RewriteRule ^(.*)$ https://www.sitedecaroline.fr/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^gaillard-kinesiologue.fr [NC]
+RewriteRule ^(.*)$ https://www.gaillard-kinesiologue.fr/$1 [L,R=301]
 
 # Redirection HTTP vers HTTPS
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://www.sitedecaroline.fr/$1 [L,R=301]
+RewriteRule ^(.*)$ https://www.gaillard-kinesiologue.fr/$1 [L,R=301]
 
 # Désactiver l'énumération des répertoires
 Options -Indexes
@@ -66,7 +66,7 @@ Options -Indexes
 
 # Protection contre le Hotlinking (empêche d'autres sites d'utiliser tes images)
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^https?://(www\.)?sitedecaroline\.fr/ [NC]
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?gaillard-kinesiologue\.fr/ [NC]
 RewriteRule \.(jpg|jpeg|png|gif|webp)$ - [F,NC]
 
 # Limitation de la taille des fichiers téléchargeables à 10 Mo
