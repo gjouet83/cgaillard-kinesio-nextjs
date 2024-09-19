@@ -108,7 +108,7 @@ const pricingContact = () => {
       </section>
       <section className="pricing-contact__schedule" id="schedule">
         <h2 className="pricing-contact__schedule__title">
-          Programmer un rendez-vous
+          Programmez un rendez-vous
         </h2>
         <CalendlyEmbed url="https://calendly.com/carolinegaillard-kinesiologue/seance-de-kinesiologie" />
       </section>

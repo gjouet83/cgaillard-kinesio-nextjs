@@ -17,7 +17,7 @@ const HowTo = () => {
     <section className="home__howTo">
       <h2 className="home__howTo__title">
         Bonjour, je m'appelle Caroline Gaillard et je suis kinésiologue
-        certifiée à Lyon 4
+        certifiée à <strong> Lyon dans le quartier de la croix rousse .</strong>
       </h2>
       <p className="home__howTo__text">
         Je vous accueille dans mon cabinet, dans un espace propice à l’écoute et

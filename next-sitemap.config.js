@@ -1,6 +1,6 @@
 // next-sitemap.config.js
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://www.votresite.com', // Remplacez par votre URL
+  siteUrl: process.env.PRODUCTION_WEBSITE_URL || 'https://www.votresite.com', // Remplacez par votre URL
   generateRobotsTxt: true, // Générer le fichier robots.txt
   generateIndexSitemap: false,
   sitemapSize: 5000, // Limite du nombre d'URL par fichier sitemap

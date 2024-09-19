@@ -29,26 +29,26 @@ const Accompaniment = () => {
             data-aos="fade-left"
             className="home__accompaniment__textContainer__list__element"
           >
-            <strong>Chaque</strong> <strong>difficulté</strong> rencontrée dans
-            la vie est <strong>une invitation au changement</strong>.
+            Chaque difficulté rencontrée dans la vie est{' '}
+            <strong>une invitation au changement</strong>.
           </li>
           <li
             data-aos="fade-left"
             className="home__accompaniment__textContainer__list__element"
           >
-            Chaque problème a <strong>une solution</strong>
+            Chaque problème a une solution.
           </li>
           <li
             data-aos="fade-left"
             className="home__accompaniment__textContainer__list__element"
           >
-            Tout changement profond et durable est <strong>possible</strong>.
+            Tout changement profond et durable est possible.
           </li>
           <li
             data-aos="fade-left"
             className="home__accompaniment__textContainer__list__element"
           >
-            Il est fréquent d'<strong>hésiter </strong>
+            Il est fréquent d'hésiter.
           </li>
           <li
             data-aos="fade-left"
@@ -90,27 +90,25 @@ const Accompaniment = () => {
             data-aos="fade-left"
             className="home__accompaniment__textContainer__list__element"
           >
-            <strong>Attendre </strong>trop longtemps avant de demander de l'aide
-            peut prolonger<strong>la souffrance inutilement</strong>
+            Attendre trop longtemps avant de demander de l'aide peut prolonger
+            la
+            <strong> souffrance </strong>inutilement.
           </li>
           <li
             data-aos="fade-left"
             className="home__accompaniment__textContainer__list__element"
           >
-            <strong>Clarifier </strong>ce qui est <strong>vécu </strong>et{' '}
-            <strong>ressenti </strong>permet de mettre en place de{' '}
-            <strong>nouvelles choses</strong>, d'amorcer un{' '}
-            <strong>changement </strong>plus juste et <strong>essentiel</strong>
-            , de se remettre en <strong>mouvement.</strong>
+            Clarifier ce qui est vécu et ressenti permet de mettre en place de
+            nouvelles choses, d'amorcer un <strong>changement </strong>plus
+            juste et essentiel , de se remettre en mouvement.
           </li>
           <li
             data-aos="fade-left"
             className="home__accompaniment__textContainer__list__element"
           >
             N'oubliez pas que <strong>demander de l'aide </strong>n'est pas un{' '}
-            signe de faiblesse, mais plutôt une{' '}
-            <strong>démonstration de force </strong>et de{' '}
-            <strong>volonté d'amélioration personnelle</strong>
+            signe de faiblesse, mais plutôt une démonstration de force et de{' '}
+            <strong>volonté d'amélioration personnelle.</strong>
           </li>
         </ul>
       </div>

@@ -2,9 +2,9 @@
 export const metadata = {
   title: 'CGU - Caroline Gaillard - Kinésiologue à Lyon',
   description:
-    'Conditions génrales d’utilisation du site gaillard-kinesiologue.fr',
+    'Conditions génrales d’utilisation du site www.gaillard-kinesiologue.fr',
   alternates: {
-    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/cgu`,
+    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/cgu/`,
   },
 };
 
@@ -303,7 +303,7 @@ const CGU = () => {
       </p>
       <h2>Article 8 - Cookies</h2>
       <p>
-        Le site gaillard-kinesiologie.fr peut collecter automatiquement des
+        Le site www.gaillard-kinesiologie.fr peut collecter automatiquement des
         informations standards. Toutes les informations détenues ne seront
         utilisées que pour suivre le volume, le type et la configuration du
         trafic utilisant ce site, pour en développer la conception et

@@ -15,11 +15,11 @@ const HeroSection = () => {
         />
       </div>
       <h1 className="home__hero__herotitle">
-        Retrouvez l'équilibre dans votre vie grâce a la kinésiologie
+        Retrouvez l'équilibre dans votre vie grâce à la kinésiologie
       </h1>
       <h2 className="home__hero__herosubtitle">
-        Permettez à votre corps de se libérer afin d’amorcer les bases d’un
-        nouvel horizon et de reconquérir votre force intérieure.
+        Libérez votre corps et retrouvez l'harmonie : un mouvement vers
+        l'équilibre et le bien-être intérieur
       </h2>
     </section>
   );

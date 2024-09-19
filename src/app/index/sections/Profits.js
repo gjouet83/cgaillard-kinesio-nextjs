@@ -34,36 +34,35 @@ const Profits = () => {
             data-aos="fade-right"
             className="home__profits__textContainer__list__element"
           >
-            Plus <strong>confiant.e</strong>, vous avancez avec{' '}
-            <strong>assurance</strong>.
+            Plus confiant(e), vous avancez avec assurance.
           </li>
           <li
             data-aos="fade-right"
             className="home__profits__textContainer__list__element"
           >
-            <strong>Reboosté.e</strong>, vous êtes à nouveau{' '}
-            <strong>plein.e d'énergie</strong> et d'allant.
+            <strong>Reboosté(e)</strong>, vous êtes à nouveau plein.e d'énergie
+            et d'allant.
           </li>
           <li
             data-aos="fade-right"
             className="home__profits__textContainer__list__element"
           >
-            Libéré.e de vos <strong>angoisses</strong>, vous êtes plus{' '}
-            <strong>détendu.e</strong>.
+            Libéré(e) de vos <strong>angoisses</strong>, vous êtes plus{' '}
+            détendu.e.
           </li>
           <li
             data-aos="fade-right"
             className="home__profits__textContainer__list__element"
           >
-            <strong>Libéré.e</strong> de votre <strong>stress</strong>, vous
-            êtes bien dans votre tête et dans votre corps.
+            Libéré.e de votre <strong>stress</strong>, vous êtes bien dans votre
+            tête et dans votre corps.
           </li>
           <li
             data-aos="fade-right"
             className="home__profits__textContainer__list__element"
           >
             Vos émotions prennent moins de place dans votre vie, vous vous
-            sentez plus <strong>apaisé.e</strong>.
+            sentez plus apaisé(e).
           </li>
           <li
             data-aos="fade-right"
@@ -82,7 +81,7 @@ const Profits = () => {
             data-aos="fade-right"
             className="home__profits__textContainer__list__element"
           >
-            Vous retrouvez l'<strong>équilibre dans votre vie</strong>. Le{' '}
+            Vous retrouvez l'équilibre dans votre vie. Le{' '}
             <strong>bien-être</strong> s'installe.
           </li>
         </ul>

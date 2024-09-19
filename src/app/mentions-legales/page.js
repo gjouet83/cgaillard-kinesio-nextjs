@@ -4,9 +4,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Mentions legales - Caroline Gaillard - Kinésiologue à Lyon',
   description:
-    'Mentions legales et politique de confidentialité du site gaillard-kinesiologue.fr',
+    'Mentions legales et politique de confidentialité du site www.gaillard-kinesiologue.fr',
   alternates: {
-    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/mentions-legales`,
+    canonical: `${process.env.PRODUCTION_WEBSITE_URL}/mentions-legales/`,
   },
 };
 
@@ -31,14 +31,14 @@ const MentionsLegales = () => {
       </p>
       <h2>Article 1 - Mentions légales</h2>
       <h3>1.1 Site (ci-après « le site ») :</h3>
-      gaillard-kinesiologue.fr
+      https://www.gaillard-kinesiologue.fr
       <h3>1.2 Éditeur (ci-après l'éditeur ):</h3>
       L’entreprise individuelle : Caroline GAILLARD Située : 16 rue Curtelin,
       69006 LYON dont le numéro de SIREN est le : 97778969200018 n* de téléphone
       : 07 62 75 07 00 adresse mail : carolinegaillard.kinesiologue@gmail.com
       <h3>1.3 Hébergeur (« ci-après l’hébergeur »)</h3>
-      gaillard-kinesilogue.com est hébergé par OVH, dont le siège social est
-      situé 2 rue Kellermann, 59100 Roubaix
+      https://www.gaillard-kinesilogue.fr est hébergé par OVH, dont le siège
+      social est situé 2 rue Kellermann, 59100 Roubaix
       <h2>Article 2 - Accès au site</h2>
       <p>
         L'accès au site et son utilisation sont réservés à un usage strictement
@@ -390,6 +390,30 @@ const MentionsLegales = () => {
         française et soumises à la compétence des tribunaux du siège social de
         l'éditeur, sous réserve d'une attribution de compétence spécifique
         découlant d'un texte de loi ou réglementaire particulier.
+      </p>
+      <h2>Article 16 - Mediation</h2>
+      <p>
+        Conformément à l'article L. 612-1 du Code de la consommation, le
+        consommateur, sous réserve de l’article L.612.2 du code de la
+        consommation, a la faculté d’introduire une demande de résolution
+        amiable par voie de médiation, dans un délai inférieur à un an à compter
+        de sa réclamation écrite auprès du professionnel. Cet établissement a
+        désigné, par adhésion enregistrée sous le numéro 51410/VM/2309/25 la SAS
+        Médiation Solution comme entité de médiation de la consommation. Pour
+        saisir le médiateur, le consommateur doit formuler sa demande : - Soit
+        par écrit à : Sas Médiation Solution 222 chemin de la bergerie 01800
+        Saint Jean de Niost Tel. 04 82 53 93 06 - Soit par mail à :
+        contact@sasmediationsolution-conso.fr - Soit en remplissant le
+        formulaire en ligne intitulé « Saisir le médiateur » sur le site
+        https://www.sasmediationsolution-conso.fr Quel que soit le moyen de
+        saisine utilisé, la demande doit impérativement contenir : - Les
+        coordonnées postales, téléphoniques et électroniques du demandeur, - Le
+        nom et l’adresse et le numéro d’enregistrement chez Sas Médiation
+        Solution, du professionnel concerné, - Un exposé succinct des faits. Le
+        consommateur précisera au médiateur ce qu’il attend de cette médiation
+        et pourquoi, - Copie de la réclamation préalable, - tous documents
+        permettant l’instruction de la demande (bon de commande, facture,
+        justificatif de paiement, etc.)
       </p>
       <h2>Article 16 - Contactez-nous</h2>
       <p>

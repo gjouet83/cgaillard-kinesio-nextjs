@@ -20,16 +20,15 @@ const Why = () => {
       <div className="home__why__textContainer">
         <ul className="home__why__list">
           <li data-aos="fade-up" className="home__why__list__element">
-            <strong>Plein.e de doutes</strong>, vous trouvez difficile de{' '}
-            <strong>faire des choix</strong> et de{' '}
-            <strong>prendre des décisions</strong>.
+            Plein(e) de doutes, faire des choix, prendre des décisions est
+            difficile.
           </li>
           <li data-aos="fade-up" className="home__why__list__element">
-            <strong>Perdu.e</strong>, vous ne savez pas comment vous en sortir.
+            <strong>Perdu(e)</strong>, vous ne savez pas comment vous en sortir.
           </li>
           <li data-aos="fade-up" className="home__why__list__element">
-            Vous vous sentez <strong>vidé.e</strong> et sans envie, et vous êtes{' '}
-            <strong>angoissé.e</strong> sans comprendre pourquoi.
+            Vous vous sentez <strong>vidé(e)</strong> et sans envie, et vous
+            êtes <strong>angoissé(e)</strong> sans comprendre pourquoi.
           </li>
           <li data-aos="fade-up" className="home__why__list__element">
             Le <strong>stress</strong> se manifeste dans votre corps : une boule
@@ -37,20 +36,20 @@ const Why = () => {
             tensions musculaires.
           </li>
           <li data-aos="fade-up" className="home__why__list__element">
-            Vous souffrez d'<strong>addictions</strong> et avez du mal à dormir,
-            ce qui vous laisse épuisé.e mentalement et physiquement.
+            Vous avez du mal à dormir, ce qui vous laisse{' '}
+            <strong>épuisé(e)</strong> mentalement et physiquement.
           </li>
           <li data-aos="fade-up" className="home__why__list__element">
-            Gérer vos <strong>émotions</strong> est un défi quotidien, et vous
-            êtes à fleur de peau.
+            Gérer vos émotions est un défi quotidien, et vous êtes à fleur de
+            peau.
           </li>
           <li data-aos="fade-up" className="home__why__list__element">
             Un événement <strong>traumatisant</strong> du passé, comme un deuil,
             une séparation ou un harcèlement, vous pèse encore lourdement.
           </li>
           <li data-aos="fade-up" className="home__why__list__element">
-            Vous avez des difficultés à vous <strong>concentrer</strong>, ce qui
-            entrave vos apprentissages.
+            Vous avez des difficultés à vous concentrer, ce qui entrave vos
+            apprentissages.
           </li>
         </ul>
       </div>

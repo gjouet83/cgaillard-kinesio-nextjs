@@ -96,7 +96,7 @@ const Footer = () => {
             className="footer__firstcontainer__partner__figure__link"
             aria-label="fédération de kinésiologie professionnelle"
           >
-            Membre de la Fédération de Kinésiologie Professionnelle
+            Membre de l' Union de Kinésiologie Professionnelle
           </Link>
           <Link
             href="https://espace-re-source.fr/tete-dor/"
@@ -125,7 +125,7 @@ const Footer = () => {
         <Link href="/mentions-legales">
           - Mentions légales et politique de confidentialité{' '}
         </Link>
-        <Link href="/CGU">- Conditions génrales d'utilisation </Link>
+        <Link href="/CGU">- Conditions générales d'utilisation </Link>
       </div>
     </footer>
   );

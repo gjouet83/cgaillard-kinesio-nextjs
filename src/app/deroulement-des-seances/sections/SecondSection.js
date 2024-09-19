@@ -41,7 +41,7 @@ const SecondSection = () => {
           </li>
           <li className="approach__session__textContainer__list__item">
             Une phase d’équilibrage énergétique des blocages identifiés parmi
-            les protocoles de kinésiologie.
+            les protocoles de <strong>kinésiologie.</strong>
           </li>
           <li className="approach__session__textContainer__list__item">
             Un temps d’échange sur la séance et explication d’un éventuel

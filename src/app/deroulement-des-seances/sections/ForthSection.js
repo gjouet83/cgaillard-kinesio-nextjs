@@ -43,7 +43,8 @@ const ForthSection = () => {
           Au fil des séances, vous ressentirez progressivement une amélioration
           de votre bien-être. Ce processus peut être plus ou moins long. Même si
           parfois la kinésiologie surprend, elle n’est pas magique ! Je suis là
-          pour vous accompagner dans votre processus de libération personnelle,
+          pour vous accompagner dans votre processus de{' '}
+          <strong>libération personnelle,</strong>
           et si je sème les graines d’un mieux être, vous demeurez le jardinier
           de votre propre jardin intérieur.
         </p>
