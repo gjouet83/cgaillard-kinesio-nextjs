@@ -120,5 +120,11 @@
     font-size: 12px;
     line-height: 12px;
     border-top: 1px solid white;
+    & a {
+      display: block;
+      @include tb-desk {
+        display: inline;
+      }
+    }
   }
 }
