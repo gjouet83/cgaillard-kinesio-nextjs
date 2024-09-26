@@ -1,7 +1,7 @@
 import ExportedImage from 'next-image-export-optimizer';
 
 import Phone from '../../../public/images/phone.jpg';
-import Firstsession from '../../../public/images/firstsession.jpg';
+import Firstsession from '../../../public/images/first-session.jpg';
 import Evolution from '../../../public/images/grow.jpg';
 import Renew from '../../../public/images/renew.jpg';
 
@@ -37,10 +37,10 @@ const creditsPhotos = () => {
           className="creditsPhotos__container__image"
           src={Firstsession}
           width={300}
-          alt="deux personne assises en taiileur et se touchant la main"
+          alt="une dame alongée les yeux fermé avec les mains d'un homme posées sur son front"
         />
         <a
-          href="https://fr.freepik.com/photos-gratuite/personnes-beneficiant-retraite-yoga_26313421.htm#fromView=search&page=1&position=2&uuid=e3b83f56-fadf-4a7a-a784-776f88a2e27e"
+          href="https://www.freepik.com/free-photo/osteopathy-patoient-getting-tretment-massage_20148542.htm#fromView=search&page=1&position=5&uuid=46a8aa0b-8125-40e2-8766-543a1de30673"
           className="creditsPhotos__container__link"
         >
           Image de freepik firstseance

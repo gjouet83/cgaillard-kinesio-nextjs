@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client';
 import ExportedImage from 'next-image-export-optimizer';
-import Firstsession from '../../../../public/images/firstsession.jpg';
+import Firstsession from '../../../../public/images/first-session.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -25,7 +25,7 @@ const SecondSection = () => {
           className="approach__session__imageContainer__image"
           src={Firstsession}
           sizes="(max-width: 321px) 320px, (max-width: 385px) 384px, (max-width: 641px) 640px,(max-width: 751px) 750px,(max-width: 829px) 828px,(max-width: 1081px) 1080px,(max-width: 1201px) 1200px,(max-width: 1921px) 1920px,(max-width: 2049px) 2048px, 3840px"
-          alt="deux personne assises en taiileur et se touchant la main"
+          alt="une dame alongée les yeux fermé avec les mains d'un homme posées sur son front"
         />
       </div>
       <div data-aos="fade-left" className="approach__session__textContainer">
