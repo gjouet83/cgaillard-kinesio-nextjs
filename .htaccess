@@ -5,6 +5,11 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^gaillard-kinesiologue.fr [NC]
 RewriteRule ^(.*)$ https://www.gaillard-kinesiologue.fr/$1 [L,R=301]
 
+# Redirection des URLs sans slash vers avec slash
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ https://www.gaillard-kinesiologue.fr/$1/ [L,R=301]
+
 # Redirection HTTP vers HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://www.gaillard-kinesiologue.fr/$1 [L,R=301]
