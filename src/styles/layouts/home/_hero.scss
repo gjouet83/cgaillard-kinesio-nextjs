@@ -72,6 +72,7 @@
       color: $HeaderBackgroundColor;
       @extend %textShadow;
       @include tb-desk {
+        top: -10%;
         font-size: 30px;
         padding-left: 50px;
         line-height: 4rem;

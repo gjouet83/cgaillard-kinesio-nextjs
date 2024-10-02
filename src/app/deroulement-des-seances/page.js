@@ -31,7 +31,7 @@ const MonApproche = () => {
         />
         <LinkPageButton
           className={'approach__contact'}
-          href={'/tarif-et-contact'}
+          href={'/tarif-et-contact#schedule'}
           text={'Prendre rendez-vous'}
         />
       </section>

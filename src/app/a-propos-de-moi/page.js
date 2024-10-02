@@ -86,7 +86,7 @@ const AboutMe = () => {
         />
         <LinkPageButton
           className={'aboutMe__contact'}
-          href={'/tarif-et-contact'}
+          href={'/tarif-et-contact#schedule'}
           text={'Prendre rendez-vous'}
         />
       </section>
