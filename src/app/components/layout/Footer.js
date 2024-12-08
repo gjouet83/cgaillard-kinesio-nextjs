@@ -4,7 +4,11 @@ import {
   faPhone,
   faLocationDot,
 } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+  faFacebook,
+  faLinkedin,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ExportedImage from 'next-image-export-optimizer';
 import fkpLogo from '../../../../public/images/FKP_Logotype.webp';
@@ -81,6 +85,20 @@ const Footer = () => {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
+                className="footer__firstcontainer__socialNetwork__content__linkedinIco"
+                aria-label="Icone Linkedin"
+                width={50}
+              />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.instagram.com/kinesiologue_lyon_caroline/"
+              rel="noreferrer"
+              aria-label="Instagram"
+              className="footer__firstcontainer__socialNetwork__content__Instagram"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
                 className="footer__firstcontainer__socialNetwork__content__linkedinIco"
                 aria-label="Icone Linkedin"
                 width={50}
