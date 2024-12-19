@@ -100,7 +100,7 @@ const Footer = () => {
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="footer__firstcontainer__socialNetwork__content__linkedinIco"
-                aria-label="Icone Linkedin"
+                aria-label="Icone Instagram"
                 width={50}
               />
             </Link>

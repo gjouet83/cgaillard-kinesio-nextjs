@@ -81,18 +81,33 @@ const pricingContact = () => {
             <li>mardi : 8h - 20h</li>
             <li>mercredi : 8h - 20h</li>
             <li>jeudi : 8h - 20h</li>
-            <li>vendredi : fermé</li>
+            <li>vendredi : 8h - 20h</li>
             <li>samedi : fermé</li>
             <li>dimanche : fermé</li>
           </ul>
         </div>
         <div className="pricing-contact__contact__pricing">
           <h3 className="pricing-contact__contact__pricing__title">Tarif</h3>
-          <span className="pricing-contact__contact__pricing__content">
-            70€
+          <ul className="pricing-contact__contact__pricing__content">
+            <li>
+              Tarif unique tout public (enfants, ado, adultes) : 70 € pour 1h15
+              (1h30 environ pour la 1ère séance).
+            </li>
+            <li>
+              Vous ne pouvez prendre rendez-vous que pour vous-même et un mineur
+              dont vous avez la charge.
+            </li>
+            <li> Règlement par chèque ou espèces ou paylib/Wero.</li>
+          </ul>
+          <span>
+            Une facture peut être fournie sur demande. Pour le respect de notre
+            collaboration et de ma disponibilité, réservez un créneau que si
+            vous êtes certain.e de pouvoir l'honorer.
           </span>
-          <span className="pricing-contact__contact__pricing__content">
-            durée de la séance 1h15
+          <span>
+            Toute annulation devra être faite 48h avant la séance. En cas de
+            désistement/report répété, je me réserve le droit de ne pas donner
+            suite à la nouvelle demande de séance.
           </span>
         </div>
         <iframe
