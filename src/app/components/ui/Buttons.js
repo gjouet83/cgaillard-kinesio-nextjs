@@ -29,10 +29,15 @@ export function BurgerMenuButton({ open, setOpen }) {
   );
 }
 
-export function LinkPageButton({ className, href, text }) {
+export function LinkPageButton({ className, href, text, target, rel }) {
   return (
     <div className={`${className} linkButton`}>
-      <Link className={`${className}__link`} href={href}>
+      <Link
+        className={`${className}__link`}
+        href={href}
+        target={target}
+        rel={target === '_blank' ? rel || 'noopener noreferrer' : rel}
+      >
         {text}
       </Link>
     </div>

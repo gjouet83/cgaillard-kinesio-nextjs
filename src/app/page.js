@@ -21,8 +21,9 @@ const Home = () => {
       <Hero />
       <LinkPageButton
         className={'home__hero__contact'}
-        href={'/tarif-et-contact#schedule'}
+        href={'https://www.crenolibre.fr/prendre-rdv/146411_gaillard'}
         text={'Prendre rendez-vous'}
+        target={'_blank'}
       />
       <HowTo />
       <Why />

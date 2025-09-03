@@ -31,8 +31,9 @@ const MonApproche = () => {
         />
         <LinkPageButton
           className={'approach__contact'}
-          href={'/tarif-et-contact#schedule'}
+          href={'https://www.crenolibre.fr/prendre-rdv/146411_gaillard'}
           text={'Prendre rendez-vous'}
+          target={'_blank'}
         />
       </section>
     </main>

@@ -27,8 +27,9 @@ const pricingContact = () => {
         <h2 className="pricing-contact__contact__title">Passez à l'action !</h2>
         <LinkPageButton
           className={'pricing-contact__contact__link'}
-          href={'#schedule'}
+          href={'https://www.crenolibre.fr/prendre-rdv/146411_gaillard'}
           text={'Prendre rendez-vous'}
+          target={'_blank'}
         />
         <address className="pricing-contact__contact__address">
           <Link
@@ -120,12 +121,6 @@ const pricingContact = () => {
           className="pricing-contact__contact__map"
           title="emplacement du cabinet"
         ></iframe>
-      </section>
-      <section className="pricing-contact__schedule" id="schedule">
-        <h2 className="pricing-contact__schedule__title">
-          Programmez un rendez-vous
-        </h2>
-        <CalendlyEmbed url="https://calendly.com/carolinegaillard-kinesiologue/seance-de-kinesiologie" />
       </section>
       <LinkPageButton
         className={'pricing-contact'}
