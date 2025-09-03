@@ -8,7 +8,6 @@ import {
   faClock,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import CalendlyEmbed from '../utils/CalendlyEmbed';
 
 export const metadata = {
   title: 'Tarif et Contact - Caroline Gaillard - Kinésiologue à Lyon',
